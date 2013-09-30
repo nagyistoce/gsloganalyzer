@@ -1,0 +1,40 @@
+#!/usr/bin/env rc 
+
+# TODO: Make a general startup+mount function
+
+ns=`{namespace}
+fpath=$HOME'/mnt/9'
+
+fn 9pid {
+	cmd='$0 ~ /9pserve.*'$1'/ && $0 !~ /awk/ {print $2}'
+	ps auxww | awk $cmd
+}
+
+fn safeMnt {
+	cmd='$0 ~ /9pfuse.*'$1'/ && $0 !~ /awk/ {print $2}'
+	s=`{ps auxww | awk $cmd}
+	if (test $#s -lt 1) {
+		printf 'Mounting %s at %s/%s\n' $1 $fpath $1
+		9pfuse $ns/$1 $fpath/$1
+	}
+}
+fn safeStart {
+	port=$1
+	cmd=$port
+	if (test -n $2) cmd=$2
+	p=`{9pid $port}
+	if (test $#p -gt 0) printf '%s runs with pid %d\n' $cmd $p
+	if not {
+		printf 'Starting %s\n' $cmd
+		$cmd &
+		sleep 1
+		}
+	safeMnt $port 
+}
+
+safeStart factotum factotum
+safeStart plumb plumber
+safeStart font fontsrv
+p=`{9pid acme}
+if (test $#p -gt 0) safeMnt acme
+

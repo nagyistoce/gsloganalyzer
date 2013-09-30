@@ -1,0 +1,17 @@
+* Prereq
+
+Compile GST on MacOS X
+./configure --with-system-libsigsegv=/opt/local/lib --with-gmp=/opt/local/lib --with-readline=/opt/local/lib --with-system-libltdl=/opt/local/lib --with-system-libffi=/opt/local/lib
+
+
+* Problem definition
+
+Describe what we are trying to solve
+
+* Component architecture
+
+Describe what component is.
+
+
+
+

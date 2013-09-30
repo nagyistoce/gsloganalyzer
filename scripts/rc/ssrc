@@ -1,0 +1,14 @@
+#!/usr/bin/env rc
+. 9.rc
+
+# TODO: Improve searches where a search _query_ is used.
+# grep needs to be changed for this.
+
+if ($#* -gt 1) searchTerm=$*
+if not searchTerm=$1
+
+for(f in `{estcmd search -max 300 -va $HOME/indexes/BbSources $searchTerm | grep _lreal | cut '-d=' -f2}) {
+for(pf  in `{grep -i -n $searchTerm $f | cut -d':' -f 1}) echo $f:$pf
+}
+
+

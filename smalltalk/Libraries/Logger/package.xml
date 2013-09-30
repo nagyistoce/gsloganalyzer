@@ -1,0 +1,7 @@
+<package>
+<name>Logger</name>
+<filein>AbstractLogger.st</filein>
+<filein>StdErrLogger.st</filein>
+<filein>FileLogger.st</filein>
+<filein>Logger.st</filein>
+</package>

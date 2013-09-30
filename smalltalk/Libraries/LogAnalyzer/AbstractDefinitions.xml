@@ -1,0 +1,79 @@
+<components>
+<ComponentDefinition name="ComponentB" type="AbstractComponentDefinition">
+<code className='AbstractComponentTestClass' path='AbstractComponentTestClass.st' />
+<description>
+Free text that describes the AbstractComponentDefinition
+</description>
+<dependent name="ComponentA" relation="extends" validate="true"/>
+<dependent name="ComponentC" relation="required" validate="true"/>
+<dependent name="ComponentD" relation="required" validate="true"/>
+<dependent name="ComponentE" relation="optional" />
+<dependent name="ComponentF" relation="optional" />
+</ComponentDefinition>
+
+<ComponentDefinition name="ComponentA" type="AbstractComponentDefinition">
+<!-- Demonstrate embedded code -->
+<code><![CDATA[
+
+Object subclass: AbstractComponentTestClass3 [
+
+    <comment: 'I am a test class for component loading. I should be part of an SUnit test'>
+    <category: 'LogAnalyzer-tests'>
+
+    AbstractComponentTestClass3 class >> new [
+	" Standard instance creation method "
+
+	<category: 'instance creation'>
+	^ self basicNew initialize
+    ]
+
+    initialize [
+	" Does nothing, just returns self "
+
+	<category: 'initialize-release'>
+	^ self
+    ]
+]
+
+]]>
+</code>
+<description>
+This component is extended by ComponentB.
+It also demonstrates embedded code
+</description>
+</ComponentDefinition>
+
+<ComponentDefinition name="ComponentC" type="AbstractComponentDefinition">
+<code className="AbstractComponentTestClass" path="AbstractComponentTestClass.st" />
+<description>
+I am required by ComponentB.
+</description>
+</ComponentDefinition>
+
+<ComponentDefinition name="ComponentD" type="AbstractComponentDefinition">
+<code className="AbstractComponentTestClass" path="AbstractComponentTestClass.st" />
+<description>
+I am required by ComponentB.
+</description>
+</ComponentDefinition>
+
+<ComponentDefinition name="ComponentE" type="AbstractComponentDefinition">
+<code className="AbstractComponentTestClass" path="AbstractComponentTestClass.st" />
+<description>
+I am an optional component for ComponentB.
+</description>
+</ComponentDefinition>
+
+<ComponentDefinition name="ComponentF" type="AbstractComponentDefinition">
+<code className="AbstractComponentTestClass" path="AbstractComponentTestClass.st" />
+<description>
+Free text that describes the AbstractComponentDefinition
+</description>
+<keywordDictionary>
+<keyword name='KEY1' type='String' />
+<keyword name='KEY2' type='Number' />
+<keyword name='KEY3' type='Dictionary' />
+</keywordDictionary>
+</ComponentDefinition>
+
+</components>

@@ -1,0 +1,940 @@
+2011-08-17 16:03  timkack@gmail.com
+
+	* smalltalk/Libraries/LogAnalyzer/Tests/XMLToolsTest.st,
+	  smalltalk/Libraries/LogAnalyzer/XMLTools.st,
+	  smalltalk/design.org: smallstuff
+
+2011-08-17 13:09  TimKack@gmail.com
+
+	* smalltalk/Libraries/LogAnalyzer/BaseClassExtensions.st,
+	  smalltalk/Libraries/LogAnalyzer/Tests/XMLToolsTest.st: More
+	  plumbing for XML to selector work
+
+2011-08-14 21:18  timkack@gmail.com
+
+	* smalltalk/Libraries/LogAnalyzer/BaseClassExtensions.st,
+	  smalltalk/Libraries/LogAnalyzer/Tests/XMLToolsTest.st,
+	  smalltalk/Libraries/LogAnalyzer/XMLTools.st: Fixed up XMLTools
+	  selectorFromElement: to pass tests. Still todo: Add
+	  <tag>value</tag> type of selectors
+
+2011-08-12 12:43  timkack@gmail.com
+
+	* smalltalk/Libraries/LogAnalyzer/AbstractComponentDefinition.st,
+	  smalltalk/Libraries/LogAnalyzer/Tests/XMLToolsTest.st,
+	  smalltalk/Libraries/LogAnalyzer/XMLTools.st,
+	  smalltalk/Libraries/LogAnalyzer/package.xml,
+	  smalltalk/scratchWorkspace.st: Added XMLTools to marshall XML
+	  tags into selectors with argument arrays
+
+2011-08-11 16:05  timkack@gmail.com
+
+	* smalltalk/Libraries/LogAnalyzer/AbstractComponentDefinition.st,
+	  smalltalk/Libraries/LogAnalyzer/ComponentRegistry.st,
+	  smalltalk/Libraries/LogAnalyzer/Tests/AbstractComponentDefinitionTest.st,
+	  smalltalk/Libraries/LogAnalyzer/Tests/AbstractDefinitions.xml,
+	  smalltalk/Libraries/LogAnalyzer/Tests/ComponentRegistryTest.st:
+	  More tests and more implementation of AbstractComponentDefinition
+
+2011-08-10 22:53  TimKack@gmail.com
+
+	* smalltalk/Libraries/LogAnalyzer/ComponentRegistry.st,
+	  smalltalk/Libraries/LogAnalyzer/Tests/ComponentRegistryTest.st:
+	  More ComponentRegistry stuff
+
+2011-08-09 16:03  timkack@gmail.com
+
+	* smalltalk/Libraries/LogAnalyzer/ComponentRegistry.st,
+	  smalltalk/Libraries/LogAnalyzer/Tests/ComponentRegistryTest.st,
+	  smalltalk/Libraries/LogAnalyzer/package.xml,
+	  smalltalk/scratchWorkspace.st: Rebuilding ComponentRegistry and
+	  adding sunit tests. Part of reworking AbstractComponentDefinition
+
+2011-08-08 23:38  TimKack@gmail.com
+
+	* ChangeLog, smalltalk/scratchWorkspace.st: Adding Changelog and
+	  scratchWorkspace modifications
+
+2011-08-08 23:35  TimKack@gmail.com
+
+	* smalltalk/Libraries/LogAnalyzer/AbstractComponentDefinition.st,
+	  smalltalk/Libraries/LogAnalyzer/Tests/AbstractComponentDefinitionTest.st,
+	  smalltalk/Libraries/LogAnalyzer/Tests/AbstractDefinitions.xml,
+	  smalltalk/Libraries/LogAnalyzer/package.xml: Adding tests and
+	  reworking AbstractComponentDefinition
+
+2011-08-08 15:50  timkack@gmail.com
+
+	* smalltalk/Libraries/LogAnalyzer/AbstractComponentDefinition.st,
+	  smalltalk/Libraries/LogAnalyzer/BaseClassExtensions.st,
+	  smalltalk/Libraries/LogAnalyzer/Tests/AbstractDefinitions.xml,
+	  smalltalk/scratchWorkspace.st: Starting to rewriting the XML
+	  interface again. It is not elegant right now
+
+2011-08-05 16:05  timkack@gmail.com
+
+	* smalltalk/Libraries/LogAnalyzer/AbstractComponentDefinition.st,
+	  smalltalk/scratchWorkspace.st: Testing recreating XML to
+	  dictionary
+
+2011-08-03 06:37  TimKack@gmail.com
+
+	* smalltalk/Libraries/LogAnalyzer/AbstractComponentDefinition.st,
+	  smalltalk/Libraries/LogAnalyzer/BaseClassExtensions.st,
+	  smalltalk/Libraries/LogAnalyzer/ComponentRegistry.st,
+	  smalltalk/Libraries/LogAnalyzer/ParserDefinition.st,
+	  smalltalk/Libraries/LogAnalyzer/package.xml: Fixed up formatting
+	  a bit. Added ParserDefinition class into package.xml
+
+2011-07-17 06:53  TimKack
+
+	* gnustep/Libraries/TKLogAnalyzer/TKLogAnalyzerOSX_Prefix.pch,
+	  smalltalk/Libraries/LogAnalyzer/AbstractComponentDefinition.st,
+	  smalltalk/Libraries/LogAnalyzer/TODO,
+	  smalltalk/Libraries/LogAnalyzer/Tests,
+	  smalltalk/Libraries/LogAnalyzer/Tests/AbstractComponentTest2Class.st,
+	  smalltalk/Libraries/LogAnalyzer/Tests/AbstractComponentTestClass.st,
+	  smalltalk/Libraries/LogAnalyzer/package.xml,
+	  smalltalk/Tests/AbstractComponentTest2Class.st,
+	  smalltalk/Tests/AbstractComponentTestClass.st,
+	  smalltalk/scratchWorkspace.st: stuff
+
+2011-07-11 21:45  TimKack
+
+	* smalltalk/Libraries/LogAnalyzer/package.xml: Fixed up file to use
+	  relative paths. Now working
+
+2011-07-11 21:38  TimKack
+
+	* smalltalk/scratchWorkspace.st: Fixed up the "Testing extended
+	  instance" test to be using relative path.
+	  Corrected package.xml to allow for building packages.
+
+2011-06-29 14:34  timkack@gmail.com
+
+	* smalltalk/Libraries/LogAnalyzer/AbstractComponentDefinition.st,
+	  smalltalk/Tests/AbstractComponentTest2Class.st,
+	  smalltalk/scratchWorkspace.st: More smallwork
+
+2011-06-29 07:00  TimKack
+
+	* smalltalk/Libraries/LogAnalyzer/package.xml: Packaging work
+
+2011-06-28 21:31  timkack@gmail.com
+
+	* smalltalk/Tests/AbstractComponentTestClass.st, smalltalk/work.im:
+	  Added test plus a work image
+
+2011-06-28 14:41  timkack@gmail.com
+
+	* smalltalk/Libraries/LogAnalyzer/AbstractComponentDefinition.st,
+	  smalltalk/scratchWorkspace.st: More loading work
+
+2011-06-27 16:01  timkack@gmail.com
+
+	* smalltalk/Libraries/LogAnalyzer/AbstractComponentDefinition.st,
+	  smalltalk/Libraries/LogAnalyzer/BaseClassExtensions.st,
+	  smalltalk/Libraries/LogAnalyzer/ComponentRegistry.st: More
+	  unspecified work
+
+2011-06-26 21:19  TimKack
+
+	* smalltalk/Libraries/LogAnalyzer/package.xml: Cleanup
+
+2011-06-23 15:08  timkack@gmail.com
+
+	* smalltalk/scratchWorkspace.st: Added more test code
+
+2011-06-23 15:08  timkack@gmail.com
+
+	* smalltalk/Libraries/LogAnalyzer/BaseClassExtensions.st: Added
+	  Collection asXMLElement: tag default method.
+
+2011-06-22 22:09  TimKack
+
+	* ChangeLog: Adding changelog
+
+2011-06-22 22:06  TimKack
+
+	* smalltalk/Libraries/LogAnalyzer/AbstractComponentDefinition.st:
+	  missing methods in AbstractComponentDefinition.st
+
+2011-06-22 22:04  TimKack
+
+	* smalltalk/scratchWorkspace.st: Updated scratch with test code for
+	  asXMLElement:configDictionary: with a missing #xmlCreator
+
+2011-06-22 22:03  TimKack
+
+	* smalltalk/Libraries/LogAnalyzer/BaseClassExtensions.st: Trying to
+	  fix asXMLElement:configDictionary to pass the dictionary
+	  recursively. Still not working
+
+2011-06-22 16:05  timkack@gmail.com
+
+	* smalltalk/Libraries/LogAnalyzer/BaseClassExtensions.st,
+	  smalltalk/scratchWorkspace.st: ...
+
+2011-06-20 22:06  TimKack
+
+	* smalltalk/scratchWorkspace.st: ...
+
+2011-06-20 22:06  TimKack
+
+	* smalltalk/Libraries/LogAnalyzer/BaseClassExtensions.st: Trouble
+	  with meta dictionary for configurable keys.
+
+2011-06-20 16:03  timkack@gmail.com
+
+	* smalltalk/Libraries/LogAnalyzer/AbstractComponentDefinition.st,
+	  smalltalk/Libraries/LogAnalyzer/BaseClassExtensions.st,
+	  smalltalk/Libraries/LogAnalyzer/ComponentRegistry.st,
+	  smalltalk/scratchWorkspace.st: More xml work and splitting out
+	  files
+
+2011-06-20 12:08  timkack@gmail.com
+
+	* smalltalk/scratchWorkspace.st: Adding some more stuff to the
+	  scratch workspace.
+
+2011-06-20 12:07  timkack@gmail.com
+
+	* smalltalk/Libraries/LogAnalyzer/AbstractComponentDefinition.st:
+	  Adding a more generalized XML marshalling as extension to
+	  Dictionary, etc.
+
+2011-06-13 20:11  TimKack
+
+	* smalltalk/scratchWorkspace.st: Added more scratch test code
+
+2011-06-13 20:11  TimKack
+
+	* smalltalk/Libraries/LogAnalyzer/AbstractComponentDefinition.st:
+	  Added more methods
+
+2011-06-10 22:34  TimKack
+
+	* smalltalk/Libraries/LogAnalyzer/AbstractComponentDefinition.st,
+	  smalltalk/scratchWorkspace.st: Minor changes
+
+2011-06-08 21:52  TimKack
+
+	* smalltalk/scratchWorkspace.st: Started to add some scratch for
+	  testing AbstractComponentDefinitions
+
+2011-06-08 21:51  TimKack
+
+	* smalltalk/Libraries/LogAnalyzer/AbstractComponentDefinition.st:
+	  Minor change
+
+2011-06-06 13:47  timkack@gmail.com
+
+	* smalltalk/Libraries/LogAnalyzer/AbstractComponentDefinition.st:
+	  starting to add validing blocks
+
+2011-06-05 21:26  TimKack
+
+	* smalltalk/Libraries/LogAnalyzer/AbstractComponentDefinition.st:
+	  Adding methods
+
+2011-06-01 22:49  TimKack
+
+	* smalltalk/Libraries/LogAnalyzer/AbstractComponentDefinition.st:
+	  Generalized a lot. More to be done.
+
+2011-06-01 15:12  timkack@gmail.com
+
+	* smalltalk/Libraries/LogAnalyzer/AbstractComponentDefinition.st,
+	  smalltalk/Libraries/LogAnalyzer/ParserDefinition.st: Some
+	  refactoring
+
+2011-05-30 22:00  TimKack
+
+	* smalltalk/Libraries/LogAnalyzer/ParserDefinition.st: Added more
+	  comments. Added spaces
+
+2011-05-30 06:36  TimKack
+
+	* smalltalk/Libraries/LogAnalyzer/ParserDefinition.st: Discussion
+	  start
+
+2011-05-29 21:30  TimKack
+
+	* smalltalk/Libraries/LogAnalyzer/ParserDefinition.st: Currently
+	  the class works but lacks the late loading mechanism needed for
+	  definition creation without pre reqs already loaded. I.e.
+	  "deferred validity"
+
+2011-05-28 22:32  TimKack
+
+	* smalltalk/Libraries/LogAnalyzer/ParserDefinition.st,
+	  smalltalk/Libraries/LogAnalyzer/ParserRegistry.st,
+	  smalltalk/scratchWorkspace.st: XML generation works. Adding
+	  loading stuff. TODO: Fixup tests
+
+2011-05-25 22:35  TimKack
+
+	* smalltalk/Libraries/LogAnalyzer/ParserDefinition.st: More XML
+	  cleanup. But broken.. Interrim commit
+
+2011-05-24 22:20  TimKack
+
+	* smalltalk/Libraries/LogAnalyzer/BaseLogAnalyzer.st,
+	  smalltalk/Libraries/LogAnalyzer/EntryParser.st,
+	  smalltalk/Libraries/LogAnalyzer/EntryParserFactory.st,
+	  smalltalk/Libraries/LogAnalyzer/ParserDefinition.st,
+	  smalltalk/Libraries/LogAnalyzer/ParserDefinitionTests.st,
+	  smalltalk/Libraries/LogAnalyzer/ParserRegistry.st,
+	  smalltalk/Libraries/LogAnalyzer/package.xml: Minor changes.
+	  Rewrote ParserDefinition further. Still sucks
+
+2011-05-19 16:07  TimKack
+
+	* smalltalk/Libraries/LogAnalyzer/ParserDefinition.st,
+	  smalltalk/Tools/ReadTests.st: Adding XML stuff
+
+2011-05-15 20:34  TimKack
+
+	* smalltalk/Libraries/LogAnalyzer/ParserRegistry.st: Changed method
+	  names
+
+2011-05-15 20:33  TimKack
+
+	* smalltalk/Libraries/LogAnalyzer/ParserDefinition.st: Added more
+	  XML marshalling
+
+2011-05-10 22:31  TimKack
+
+	* smalltalk/Libraries/LogAnalyzer/ParserDefinition.st: added
+	  methods
+
+2011-05-08 21:50  TimKack
+
+	* smalltalk/Libraries/LogAnalyzer/ChangeLog,
+	  smalltalk/Libraries/LogAnalyzer/ParserDefinition.st,
+	  smalltalk/Libraries/LogAnalyzer/ParserDefinitionTest.st,
+	  smalltalk/Libraries/LogAnalyzer/ParserDefinitionTests.st,
+	  smalltalk/Libraries/LogAnalyzer/ParserRegistry.st,
+	  smalltalk/Libraries/LogAnalyzer/package.xml: More basic work on
+	  ParserDefinition
+
+2011-05-02 21:35  TimKack
+
+	* smalltalk/Libraries/LogAnalyzer/ParserDefinition.st: Minor change
+
+2011-05-02 21:35  TimKack
+
+	* smalltalk/Libraries/LogAnalyzer/ParserRegistry.st: Reformat
+
+2011-05-02 21:16  TimKack
+
+	* smalltalk/Libraries/LogAnalyzer/BaseLibraryTests.st,
+	  smalltalk/Libraries/LogAnalyzer/BaseLogAnalyzer.st,
+	  smalltalk/Libraries/LogAnalyzer/ChangeLog,
+	  smalltalk/Libraries/LogAnalyzer/EntryParser.st,
+	  smalltalk/Libraries/LogAnalyzer/EntryParserFactory.st,
+	  smalltalk/Libraries/LogAnalyzer/LogAnalyzer.st,
+	  smalltalk/Libraries/LogAnalyzer/LogEntryParser.st,
+	  smalltalk/Libraries/LogAnalyzer/LogEntryParserFactory.st,
+	  smalltalk/Libraries/LogAnalyzer/LogParserDefinition.st,
+	  smalltalk/Libraries/LogAnalyzer/LogParserRegistry.st,
+	  smalltalk/Libraries/LogAnalyzer/ParserDefinition.st,
+	  smalltalk/Libraries/LogAnalyzer/ParserDefinitionTest.st,
+	  smalltalk/Libraries/LogAnalyzer/ParserRegistry.st,
+	  smalltalk/Libraries/LogAnalyzer/package.xml: Adding a basic
+	  package structure. Renamed quite a bit
+
+2011-05-02 21:15  TimKack
+
+	* smalltalk/Libraries/LogAnalyzer/BaseLibraryTests.st: Adding emacs
+	  modeline
+
+2011-05-02 21:13  TimKack
+
+	* smalltalk/Libraries/LogAnalyzer/ParserDefinitionTest.st: Adding
+	  mode lines
+
+2011-04-27 15:55  timkack@gmail.com
+
+	* smalltalk/Libraries/LogAnalyzer/LogParserRegistry.st: broke it
+
+2011-04-27 00:42  timkack@gmail.com
+
+	* smalltalk/Libraries/LogAnalyzer/LogParserDefinition.st: added
+	  more methods
+
+2011-04-25 21:27  TimKack
+
+	* smalltalk/Libraries/LogAnalyzer/LogEntryParser.st,
+	  smalltalk/Libraries/LogAnalyzer/LogParserDefinition.st,
+	  smalltalk/Libraries/LogAnalyzer/LogParserRegistry.st: Added
+	  LogParserDefinition and did some more work on LogParserRegistry
+
+2011-04-20 22:24  TimKack
+
+	* smalltalk/Libraries/LogAnalyzer/LogParserRegistry.st: Small steps
+	  towards a real registry
+
+2011-04-20 16:25  timkack@gmail.com
+
+	* smalltalk/Libraries/LogAnalyzer/LogParserRegistry.st: Added some
+	  doc
+
+2011-04-20 13:13  timkack@gmail.com
+
+	* smalltalk/Libraries/LogAnalyzer/LogEntryParserRegistry.st,
+	  smalltalk/Libraries/LogAnalyzer/LogParserRegistry.st: Renamed
+	  file to match GNUstep project
+
+2011-04-11 21:48  TimKack
+
+	* gnustep/Libraries/TKLogAnalyzer/TKLogParserRegistry.m: Fiddled
+	  around with emacs modeline
+
+2011-03-22 10:15  timkack@gmail.com
+
+	* smalltalk/Libraries/LogAnalyzer/LogEntryParserRegistry.st,
+	  smalltalk/Libraries/LogEntryParserRegistry.st: Moving..
+
+2011-03-15 16:07  TimKack
+
+	* gnustep/Tools/csvSanitize, gnustep/Tools/csvSanitize/GNUmakefile,
+	  gnustep/Tools/csvSanitize/csvSanitize.m: Small stuff
+
+2011-03-15 07:07  TimKack
+
+	* gnustep/Libraries/TKLogAnalyzer/TKLogParserRegistry.h,
+	  gnustep/Libraries/TKLogAnalyzer/TKLogParserRegistry.m,
+	  smalltalk/Libraries/LogEntryParserRegistry.st,
+	  smalltalk/Tools/ReadTests.st, smalltalk/Tools/test.im: Reworked
+	  LogParserRegistry. Added some smalltalk stuff
+
+2011-03-14 16:05  TimKack
+
+	* gnustep/Libraries/TKLogAnalyzer/TKLogAnalyzer.m,
+	  gnustep/Libraries/TKLogAnalyzer/TKLogParserRegistry.h,
+	  gnustep/Libraries/TKLogAnalyzer/TKLogParserRegistry.m: Start to
+	  break down RegistryParser
+
+2011-03-11 12:09  TimKack
+
+	* gnustep/Tools/readBench, gnustep/Tools/readBench/GNUmakefile,
+	  gnustep/Tools/readBench/ReadBench.m: Added small read tool for
+	  testing
+
+2011-03-09 22:10  timkack@gmail.com
+
+	* Attic/GSLogAnalyzer.pcproj, Attic/LogDumper.subproj, Attic/TAGS,
+	  smalltalk/BasicDelimiterHandler.st,
+	  smalltalk/DelimiterHandler.st,
+	  smalltalk/Documentation/Design.tex, smalltalk/FileSink.st,
+	  smalltalk/Libraries/LogAnalyzer,
+	  smalltalk/Libraries/LogAnalyzer.st,
+	  smalltalk/Libraries/LogAnalyzer/LogAnalyzer.st,
+	  smalltalk/Libraries/LogAnalyzer/LogEntryParser.st,
+	  smalltalk/Libraries/LogAnalyzer/LogEntryParserFactory.st,
+	  smalltalk/Libraries/LogEntryParser.st,
+	  smalltalk/Libraries/LogEntryParserFactory.st,
+	  smalltalk/package.xml, smalltalk/parser.txt,
+	  smalltalk/scratchWorkspace.st: Cleaning up
+
+2011-03-08 15:59  TimKack
+
+	* gnustep/Libraries/TKLogAnalyzer/TKLogParserRegistry.m: Fixed up
+	  parserIncludingDependenciesForLogType
+
+2011-03-08 14:56  TimKack
+
+	* gnustep/Libraries/TKLogAnalyzer/GNUmakefile,
+	  gnustep/Libraries/TKLogAnalyzer/TKLogAnalyzer.h,
+	  gnustep/Libraries/TKLogAnalyzer/TKLogAnalyzer.m,
+	  gnustep/Libraries/TKLogAnalyzer/TKLogEntryParser.h,
+	  gnustep/Libraries/TKLogAnalyzer/TKLogEntryParser.m,
+	  gnustep/Libraries/TKLogAnalyzer/TKLogEntryParserFactory.m,
+	  gnustep/Libraries/TKLogAnalyzer/TKLogParserRegistry.h,
+	  gnustep/Libraries/TKLogAnalyzer/TKLogParserRegistry.m,
+	  gnustep/Tools/CreateParserDict/CreateParserDict.m,
+	  gnustep/Tools/CreateParserDict/GNUmakefile: TKLogParserRegistry
+	  added
+
+2011-03-08 01:18  TimKack
+
+	* gnustep/Tools/CreateParserDict/CreateParserDict.m: More work on
+	  Parser dependicies
+
+2011-03-07 15:59  TimKack
+
+	* gnustep/Libraries/TKLogAnalyzer/GNUmakefile,
+	  gnustep/Tools/CreateParserDict/CreateParserDict.m: More work on
+	  creating mock parser definitions. Library does not compile
+
+2011-03-06 22:38  TimKack
+
+	* smalltalk/Libraries/LogAnalyzer.st,
+	  smalltalk/Libraries/LogEntryParser.st,
+	  smalltalk/Libraries/LogEntryParserFactory.st: More smalltalk work
+
+2011-03-06 14:10  TimKack
+
+	* gnustep/Libraries/TKLogAnalyzer/TKLogAnalyzer.m,
+	  smalltalk/Libraries/LogAnalyzer.st,
+	  smalltalk/Libraries/LogEntryParser.st,
+	  smalltalk/Libraries/LogEntryParserFactory.st,
+	  smalltalk/Tools/AppleConfigStore.st,
+	  smalltalk/Tools/GenericConfigStore.st,
+	  smalltalk/Tools/configStore.st: Smalltalk work
+
+2011-03-04 17:02  TimKack
+
+	* gnustep/Libraries/TKLogAnalyzer/TKLogAnalyzer.h,
+	  gnustep/Libraries/TKLogAnalyzer/TKLogAnalyzer.m,
+	  gnustep/Tools/CreateParserDict/CreateParserDict.m: Working on
+	  Parser Chain algorithm
+
+2011-03-02 23:57  TimKack
+
+	* gnustep/Libraries/TKLogAnalyzer/TKLogAnalyzer.h,
+	  gnustep/Libraries/TKLogAnalyzer/TKLogAnalyzer.m,
+	  gnustep/Tools/CreateParserDict/CreateParserDict.m,
+	  smalltalk/Libraries/LogAnalyzer.st,
+	  smalltalk/Libraries/LogEntryParser.st,
+	  smalltalk/Libraries/LogEntryParserFactory.st,
+	  smalltalk/LogAnalyzer.im, smalltalk/Tools/configStore.st: Added
+	  more to TKLogAnalyzer to handle defaults. Started adding
+	  Smalltalk helpers
+
+2011-03-02 17:12  TimKack
+
+	* gnustep/Libraries/TKLogAnalyzer/TKLogAnalyzer.h,
+	  gnustep/Libraries/TKLogAnalyzer/TKLogAnalyzer.m,
+	  gnustep/Tools/CreateParserDict,
+	  gnustep/Tools/CreateParserDict/CreateParserDict.m,
+	  gnustep/Tools/CreateParserDict/GNUmakefile: Added
+	  CreateParserDict tool to populate defaults and started to flesh
+	  out TKLogAnalyzer.h/m
+
+2011-03-01 00:56  TimKack
+
+	* gnustep/Libraries/TKLogAnalyzer/TKLogAnalyzer.h,
+	  gnustep/Libraries/TKLogAnalyzer/TKLogAnalyzer.m: Added methods to
+	  TKLogAnalyzer interface
+
+2011-02-24 07:17  TimKack
+
+	* gnustep/Libraries/TKLogAnalyzer/TKLogAnalyzer.h,
+	  gnustep/Libraries/TKLogAnalyzer/TKLogAnalyzer.m,
+	  gnustep/Libraries/TKLogAnalyzer/TKLogAnalyzerOSX.xcodeproj,
+	  gnustep/Libraries/TKLogAnalyzer/TKLogAnalyzerOSX.xcodeproj/project.pbxproj,
+	  gnustep/Libraries/TKLogAnalyzer/TKLogAnalyzerOSX.xcodeproj/tkack.mode1v3,
+	  gnustep/Libraries/TKLogAnalyzer/TKLogAnalyzerOSX.xcodeproj/tkack.pbxuser,
+	  gnustep/Libraries/TKLogAnalyzer/TKLogEntryParserFactory.h,
+	  gnustep/Libraries/TKLogAnalyzer/TKLogEntryParserFactory.m: Some
+	  more stuff
+
+2011-02-14 21:46  TimKack
+
+	* gnustep/Libraries/GNUmakefile,
+	  gnustep/Libraries/GNUmakefile.postamble,
+	  gnustep/Libraries/GNUmakefile.preamble,
+	  gnustep/Libraries/OrderedDictionary.h,
+	  gnustep/Libraries/OrderedDictionary.m,
+	  gnustep/Libraries/TKLogAnalyzer.h,
+	  gnustep/Libraries/TKLogAnalyzer.m,
+	  gnustep/Libraries/TKLogAnalyzer/GNUmakefile,
+	  gnustep/Libraries/TKLogAnalyzer/GNUmakefile.postamble,
+	  gnustep/Libraries/TKLogAnalyzer/GNUmakefile.preamble,
+	  gnustep/Libraries/TKLogAnalyzer/OrderedDictionary.h,
+	  gnustep/Libraries/TKLogAnalyzer/OrderedDictionary.m,
+	  gnustep/Libraries/TKLogAnalyzer/TKLogAnalyzer.h,
+	  gnustep/Libraries/TKLogAnalyzer/TKLogAnalyzer.m,
+	  gnustep/Libraries/TKLogAnalyzer/TKLogEntryParser.h,
+	  gnustep/Libraries/TKLogAnalyzer/TKLogEntryParser.m,
+	  gnustep/Libraries/TKLogAnalyzer/TKLogEntryParserFactory.h,
+	  gnustep/Libraries/TKLogAnalyzer/TKLogEntryParserFactory.m,
+	  gnustep/Libraries/TKLogAnalyzer/TKLogEntryProvider.h,
+	  gnustep/Libraries/TKLogAnalyzer/TKLogSource.h,
+	  gnustep/Libraries/TKLogEntryParser.h,
+	  gnustep/Libraries/TKLogEntryParser.m,
+	  gnustep/Libraries/TKLogEntryParserFactory.h,
+	  gnustep/Libraries/TKLogEntryParserFactory.m,
+	  gnustep/Libraries/TKLogEntryProvider.h,
+	  gnustep/Libraries/TKLogSource.h: Reorg
+
+2011-02-14 21:43  TimKack
+
+	* gnustep/Libraries/TKLogAnalyzer:
+
+2011-02-14 21:40  TimKack
+
+	* gnustep/Libraries/TKLogAnalyzer.h,
+	  gnustep/Libraries/TKLogEntryParserFactory.h: changed comments
+
+2011-02-06 21:45  timkack@gmail.com
+
+	* Attic/smalltalk, Attic/smalltalk/LogEntity.st,
+	  Attic/smalltalk/LogEntry.st, Attic/smalltalk/LogProcessor.st,
+	  gnustep/Libraries/TKLogAnalyzer.h,
+	  gnustep/Libraries/TKLogEntryParser.m,
+	  gnustep/Libraries/TKLogEntryParserFactory.h,
+	  gnustep/Libraries/TKLogEntryProvider.h,
+	  gnustep/Logsinks/TKDummyLogSink/TKDummyLogSink.m,
+	  smalltalk/Collectors, smalltalk/Libraries,
+	  smalltalk/Libraries/LogEntryParser.st,
+	  smalltalk/Libraries/LogEntryParserFactory.st,
+	  smalltalk/LogAnalyzer.im, smalltalk/LogEntity.st,
+	  smalltalk/LogEntry.st, smalltalk/LogProcessor.st,
+	  smalltalk/Logsinks, smalltalk/Parsers,
+	  smalltalk/Parsers/AccessLog, smalltalk/Parsers/BbAccessLog: Reorg
+	  + Smalltalk additions
+
+2011-01-29 19:09  TimKack
+
+	* gnustep/Libraries/OrderedDictionary.m,
+	  gnustep/Libraries/TKAccessLog.h, gnustep/Libraries/TKAccessLog.m,
+	  gnustep/Libraries/TKLogAnalyzer.h,
+	  gnustep/Libraries/TKLogAnalyzer.m,
+	  gnustep/Libraries/TKLogEntryParser.h,
+	  gnustep/Libraries/TKLogEntryParser.m,
+	  gnustep/Libraries/TKLogEntryParserFactory.m: Small makefile
+	  changes
+
+2011-01-29 16:12  TimKack
+
+	* gnustep/Libraries/GNUmakefile,
+	  gnustep/Libraries/TKDummyLogSink.h,
+	  gnustep/Libraries/TKDummyLogSink.m,
+	  gnustep/Libraries/TKLogAnalyzer.h,
+	  gnustep/Libraries/TKLogAnalyzer.m, gnustep/Logsinks,
+	  gnustep/Logsinks/GNUmakefile,
+	  gnustep/Logsinks/GNUmakefile.postamble,
+	  gnustep/Logsinks/GNUmakefile.preamble,
+	  gnustep/Logsinks/TKDummyLogSink,
+	  gnustep/Logsinks/TKDummyLogSink/GNUmakefile,
+	  gnustep/Logsinks/TKDummyLogSink/GNUmakefile.postamble,
+	  gnustep/Logsinks/TKDummyLogSink/GNUmakefile.preamble,
+	  gnustep/Logsinks/TKDummyLogSink/TKDummyLogSink.h,
+	  gnustep/Logsinks/TKDummyLogSink/TKDummyLogSink.m: Infrastructure
+	  work
+
+2011-01-24 23:24  TimKack
+
+	* gnustep, gnustep/Collectors, gnustep/Libraries,
+	  gnustep/Libraries/GNUmakefile,
+	  gnustep/Libraries/GNUmakefile.postamble,
+	  gnustep/Libraries/GNUmakefile.preamble,
+	  gnustep/Libraries/OrderedDictionary.h,
+	  gnustep/Libraries/OrderedDictionary.m,
+	  gnustep/Libraries/TKAccessLog.h, gnustep/Libraries/TKAccessLog.m,
+	  gnustep/Libraries/TKDummyLogSink.h,
+	  gnustep/Libraries/TKDummyLogSink.m,
+	  gnustep/Libraries/TKLogEntryParser.h,
+	  gnustep/Libraries/TKLogEntryParser.m,
+	  gnustep/Libraries/TKLogEntryParserFactory.h,
+	  gnustep/Libraries/TKLogEntryParserFactory.m,
+	  gnustep/Libraries/TKLogEntryProvider.h,
+	  gnustep/Libraries/TKLogSource.h, gnustep/Parsers,
+	  gnustep/Parsers/BBAccessLogParser,
+	  gnustep/Parsers/BBAccessLogParser/GNUmakefile,
+	  gnustep/Parsers/BBAccessLogParser/GNUmakefile.postamble,
+	  gnustep/Parsers/BBAccessLogParser/GNUmakefile.preamble,
+	  gnustep/Parsers/BBAccessLogParser/TKLogEntryProvider.h,
+	  gnustep/Parsers/GNUmakefile,
+	  gnustep/Parsers/GNUmakefile.postamble,
+	  gnustep/Parsers/GNUmakefile.preamble,
+	  gnustep/Parsers/TKAccessLogParser,
+	  gnustep/Parsers/TKAccessLogParser/GNUmakefile,
+	  gnustep/Parsers/TKAccessLogParser/GNUmakefile.postamble,
+	  gnustep/Parsers/TKAccessLogParser/GNUmakefile.preamble,
+	  gnustep/Parsers/TKAccessLogParser/TKAccessLine.h,
+	  gnustep/Parsers/TKAccessLogParser/TKAccessLine.m,
+	  gnustep/Parsers/TKAccessLogParser/TKLogEntryProvider.h,
+	  gnustep/Tools, smalltalk/parser.txt: Initial addition of the new
+	  LogAnalyzer
+
+2011-01-24 23:12  TimKack
+
+	* Attic/ChangeLog, Attic/GSLogAnalyzer.pcproj,
+	  Attic/ParserUtils.subproj, Attic/TAGS, Attic/TODO, Attic/tests,
+	  ChangeLog, GSLogAnalyzer.pcproj, ParserUtils.subproj, TAGS, TODO,
+	  tests: Moving more stuff
+
+2011-01-24 23:09  TimKack
+
+	* Attic, Attic/GNUmakefile, Attic/GNUmakefile.postamble,
+	  Attic/GNUmakefile.preamble, Attic/LogDumper.subproj, GNUmakefile,
+	  GNUmakefile.postamble, GNUmakefile.preamble, LogDumper.subproj:
+	  Retiring stuff
+
+2011-01-04 21:56  TimKack
+
+	* tests/GNUmakefile: Added skeleton makefile for tests
+
+2010-11-04 21:22  TimKack
+
+	* smalltalk/BasicDelimiterHandler.st,
+	  smalltalk/CharacterDelimiterHandler.st,
+	  smalltalk/DelimiterHandler.st, smalltalk/scratchWorkspace.st:
+	  More scratch work
+
+2010-11-02 23:41  TimKack
+
+	* smalltalk/CharacterDelimiterHandler.st,
+	  smalltalk/DelimiterHandler.st, smalltalk/FileSink.st,
+	  smalltalk/LogEntity.st, smalltalk/LogEntry.st,
+	  smalltalk/LogProcessor.st, smalltalk/package.xml,
+	  smalltalk/scratchWorkspace.st: More smalltalk fleshing out
+
+2010-11-01 21:53  TimKack
+
+	* smalltalk/LogAnalyzer.im, smalltalk/LogEntity.st,
+	  smalltalk/scratchWorkspace.st: More smalltalk work
+
+2010-11-01 10:10  TimKack
+
+	* GSLogAnalyzer.pcproj/timkack.project,
+	  ParserUtils.subproj/DelimiterHandling.h,
+	  ParserUtils.subproj/LogEntity.m,
+	  ParserUtils.subproj/LogEntityParsing.h,
+	  ParserUtils.subproj/NSData+LogEntity.m, smalltalk/FileSink.st,
+	  smalltalk/LogAnalyzer.im, smalltalk/LogEntity.st,
+	  smalltalk/LogEntry.st, smalltalk/LogProcessor.st: Added some GST
+	  files
+
+2010-10-18 22:11  TimKack
+
+	* smalltalk/LogEntity.st: Smalltalk version of LogEntity needs more
+	  logic for ordering its tree. Started
+
+2010-10-14 07:49  timkack
+
+	* ChangeLog, ParserUtils.subproj/LogEntity.h,
+	  ParserUtils.subproj/LogEntity.m,
+	  ParserUtils.subproj/ParserUtils.pcproj/PC.project: Added
+	  ChangeLog
+
+2010-10-13 22:42  TimKack
+
+	* ParserUtils.subproj/DelimiterHandling.h,
+	  ParserUtils.subproj/LogEntity.h, ParserUtils.subproj/LogEntity.m,
+	  ParserUtils.subproj/NSData+LogEntity.h,
+	  ParserUtils.subproj/NSData+LogEntity.m,
+	  ParserUtils.subproj/NSString+LogEntity.h,
+	  ParserUtils.subproj/NSString+LogEntity.m: Changed my mind -
+	  removed target action idea.
+
+2010-10-13 16:03  TimKack
+
+	* tests/LogEntityTest.h, tests/LogEntityTest.m,
+	  tests/ParserUtilsTests.h, tests/ParserUtilsTests.m, tests/main.m:
+	  Added initial test structure for LogEntity
+
+2010-10-13 04:58  TimKack
+
+	* ParserUtils.subproj/LogEntry.h,
+	  ParserUtils.subproj/ParserUtils.h,
+	  ParserUtils.subproj/ParserUtils.m: More comments
+
+2010-10-12 14:40  TimKack
+
+	* tests, tests/ObjcUnit-1.2-GNUstep.tar.gz: Added unittest package
+	  and directory
+
+2010-10-11 22:09  TimKack
+
+	* ParserUtils.subproj/DelimiterHandling.h,
+	  ParserUtils.subproj/NSData+LogEntity.m,
+	  ParserUtils.subproj/NSString+LogEntity.m, smalltalk/LogEntity.st,
+	  smalltalk/LogEntry.st: no message
+
+2010-10-11 22:09  TimKack
+
+	* ParserUtils.subproj/NSString+LogEntity.h: Added same logic as in
+	  NSData+LogEntity.h. This should possibly be refactored to a
+	  common abstract class or as a Category to NSObject.
+
+2010-10-11 22:06  TimKack
+
+	* ParserUtils.subproj/LogEntity.h: Added setSubject.
+
+2010-10-11 22:04  TimKack
+
+	* ParserUtils.subproj/LogEntity.m: Revamped -description to do
+	  something useful.
+	  Added -setSubject: to do a shallow copy of whatever we are going
+	  to break out logentities from (currently are only NSData and
+	  NSString allowed)
+	  Moved -setSubject: logic from initWithObject: to its own method
+
+2010-10-04 05:33  TimKack
+
+	* smalltalk, smalltalk/Documentation,
+	  smalltalk/Documentation/Design.tex, smalltalk/LogEntity.st,
+	  smalltalk/LogEntry.st, smalltalk/Tests,
+	  smalltalk/Tests/LogAnalyzerTests.st, smalltalk/Tools,
+	  smalltalk/package.xml: Imported GNU smalltalk prototyping work
+
+2010-10-04 05:26  TimKack
+
+	* GSLogAnalyzer.pcproj.backup, GSLogAnalyzer.pcproj/PC.project,
+	  GSLogAnalyzer.pcproj/timkack.project,
+	  ParserUtils.subproj/DelimiterHandling.h,
+	  ParserUtils.subproj/GNUmakefile, ParserUtils.subproj/LogEntity.m,
+	  ParserUtils.subproj/LogEntityParsing.h,
+	  ParserUtils.subproj/NSData+LogEntity.h,
+	  ParserUtils.subproj/NSData+LogEntity.m,
+	  ParserUtils.subproj/NSString+LogEntity.h: Cleaned up some
+
+2010-09-28 22:19  TimKack
+
+	* ParserUtils.subproj/GNUmakefile, ParserUtils.subproj/LogEntity.h,
+	  ParserUtils.subproj/LogEntity.m,
+	  ParserUtils.subproj/NSData+LogEntity.h,
+	  ParserUtils.subproj/NSData+LogEntity.m: Added -initWithObject
+	  method to logEntity
+
+2010-09-28 20:24  TimKack
+
+	* ParserUtils.subproj/DelimiterHandling.gsdoc,
+	  ParserUtils.subproj/DelimiterHandling.html,
+	  ParserUtils.subproj/GNUmakefile,
+	  ParserUtils.subproj/GeneralSingleCharDelimiter.gsdoc,
+	  ParserUtils.subproj/GeneralSingleCharDelimiter.html,
+	  ParserUtils.subproj/LogEntity.gsdoc,
+	  ParserUtils.subproj/LogEntity.h,
+	  ParserUtils.subproj/LogEntity.html,
+	  ParserUtils.subproj/LogEntity.m,
+	  ParserUtils.subproj/LogEntityData.h,
+	  ParserUtils.subproj/LogEntityData.m,
+	  ParserUtils.subproj/LogEntityParsing.gsdoc,
+	  ParserUtils.subproj/LogEntityParsing.html,
+	  ParserUtils.subproj/LogEntityString.h,
+	  ParserUtils.subproj/LogEntityString.m,
+	  ParserUtils.subproj/LogEntry.gsdoc,
+	  ParserUtils.subproj/LogEntry.html,
+	  ParserUtils.subproj/ParserUtils.gsdoc,
+	  ParserUtils.subproj/ParserUtils.html,
+	  ParserUtils.subproj/ParserUtils.pcproj/PC.project,
+	  ParserUtils.subproj/Untitled.igsdoc: Cleanup junk
+
+2010-09-21 22:00  TimKack
+
+	* ParserUtils.subproj/LogEntity.m,
+	  ParserUtils.subproj/LogEntityData.m,
+	  ParserUtils.subproj/NSData+LogEntity.m: Added a default parser to
+	  LogEntity
+
+2010-09-20 21:56  TimKack
+
+	* ParserUtils.subproj/GNUmakefile, ParserUtils.subproj/LogEntity.m,
+	  ParserUtils.subproj/LogEntityData.h,
+	  ParserUtils.subproj/LogEntityData.m,
+	  ParserUtils.subproj/NSData+LogEntity.h,
+	  ParserUtils.subproj/NSData+LogEntity.m,
+	  ParserUtils.subproj/NSString+LogEntity.h,
+	  ParserUtils.subproj/NSString+LogEntity.m,
+	  ParserUtils.subproj/ParserUtils.pcproj/PC.project: Fixed up
+	  compilation and added an exception for unconfigured LogEntities
+
+2010-09-17 22:14  TimKack
+
+	* ParserUtils.subproj/LogEntityData.h,
+	  ParserUtils.subproj/LogEntityData.m,
+	  ParserUtils.subproj/LogEntityParsing.h,
+	  ParserUtils.subproj/NSData+LogEntity.h,
+	  ParserUtils.subproj/NSData+LogEntity.m: More infrastructure
+
+2010-09-15 15:51  TimKack
+
+	* ParserUtils.subproj/LogEntity.h, ParserUtils.subproj/LogEntity.m,
+	  ParserUtils.subproj/LogEntityData.h,
+	  ParserUtils.subproj/NSData+LogEntity.h,
+	  ParserUtils.subproj/NSData+LogEntity.m: Some more groundwork for
+	  LogEntity category and some base for LogEntityData
+
+2010-09-13 17:17  TimKack
+
+	* COPYING, COPYING.LIB, LogDumper.subproj/main.m,
+	  ParserUtils.subproj/LogEntity.h, ParserUtils.subproj/LogEntity.m,
+	  ParserUtils.subproj/LogEntityData.h,
+	  ParserUtils.subproj/LogEntityData.m,
+	  ParserUtils.subproj/LogEntityString.h,
+	  ParserUtils.subproj/LogEntityString.m,
+	  ParserUtils.subproj/LogEntry.h,
+	  ParserUtils.subproj/NSData+LogEntity.h,
+	  ParserUtils.subproj/NSData+LogEntity.m,
+	  ParserUtils.subproj/ParserUtils.h, TODO: Some more random work
+
+2010-09-09 15:34  TimKack
+
+	* ParserUtils.subproj/GNUmakefile,
+	  ParserUtils.subproj/LogEntityData.h,
+	  ParserUtils.subproj/LogEntityData.m,
+	  ParserUtils.subproj/LogEntityString.h,
+	  ParserUtils.subproj/LogEntityString.m,
+	  ParserUtils.subproj/NSData+LogEntity.h,
+	  ParserUtils.subproj/NSData+LogEntity.m,
+	  ParserUtils.subproj/ParserUtils.pcproj/PC.project: New files
+
+2010-09-08 08:55  TimKack
+
+	* ParserUtils.subproj/NSData+LogEntity.h,
+	  ParserUtils.subproj/NSData+LogEntity.m: Added NSData+LogEntity
+
+2010-09-07 20:17  TimKack
+
+	* GSLogAnalyzer.pcproj/PC.project, LogDumper.subproj/main.m,
+	  ParserUtils.subproj/GNUmakefile, ParserUtils.subproj/LogEntity.h,
+	  ParserUtils.subproj/LogEntity.m,
+	  ParserUtils.subproj/ParserUtils.m,
+	  ParserUtils.subproj/ParserUtils.pcproj/PC.project: Changed to
+	  target-action for handling parser and delimiter handling
+
+2010-09-06 21:07  TimKack
+
+	* GNUmakefile, GNUmakefile.postamble, GNUmakefile.preamble,
+	  GSLogAnalyzer.pcproj, GSLogAnalyzer.pcproj.backup,
+	  GSLogAnalyzer.pcproj.backup/PC.project,
+	  GSLogAnalyzer.pcproj.backup/tkack.project,
+	  GSLogAnalyzer.pcproj/PC.project,
+	  GSLogAnalyzer.pcproj/tkack.project, LogDumper.subproj,
+	  LogDumper.subproj/GNUmakefile,
+	  LogDumper.subproj/GNUmakefile.postamble,
+	  LogDumper.subproj/GNUmakefile.preamble,
+	  LogDumper.subproj/LogDumper.pcproj,
+	  LogDumper.subproj/LogDumper.pcproj/PC.project,
+	  LogDumper.subproj/LogDumperInfo.plist,
+	  LogDumper.subproj/ParserUtils.h, LogDumper.subproj/Resources,
+	  LogDumper.subproj/main.m, ParserUtils.subproj,
+	  ParserUtils.subproj/DelimiterHandling.gsdoc,
+	  ParserUtils.subproj/DelimiterHandling.h,
+	  ParserUtils.subproj/DelimiterHandling.html,
+	  ParserUtils.subproj/GNUmakefile,
+	  ParserUtils.subproj/GNUmakefile.postamble,
+	  ParserUtils.subproj/GNUmakefile.preamble,
+	  ParserUtils.subproj/GeneralSingleCharDelimiter.gsdoc,
+	  ParserUtils.subproj/GeneralSingleCharDelimiter.h,
+	  ParserUtils.subproj/GeneralSingleCharDelimiter.html,
+	  ParserUtils.subproj/GeneralSingleCharDelimiter.m,
+	  ParserUtils.subproj/LogEntity.gsdoc,
+	  ParserUtils.subproj/LogEntity.h,
+	  ParserUtils.subproj/LogEntity.html,
+	  ParserUtils.subproj/LogEntity.m,
+	  ParserUtils.subproj/LogEntityParsing.gsdoc,
+	  ParserUtils.subproj/LogEntityParsing.h,
+	  ParserUtils.subproj/LogEntityParsing.html,
+	  ParserUtils.subproj/LogEntry.gsdoc,
+	  ParserUtils.subproj/LogEntry.h,
+	  ParserUtils.subproj/LogEntry.html,
+	  ParserUtils.subproj/LogEntry.m,
+	  ParserUtils.subproj/ParserUtils.gsdoc,
+	  ParserUtils.subproj/ParserUtils.h,
+	  ParserUtils.subproj/ParserUtils.html,
+	  ParserUtils.subproj/ParserUtils.m,
+	  ParserUtils.subproj/ParserUtils.pcproj,
+	  ParserUtils.subproj/ParserUtils.pcproj/PC.project,
+	  ParserUtils.subproj/Untitled.igsdoc, TAGS: Initial import
+
+2010-09-06 21:01  
+
+	* .: Initial directory structure.
+

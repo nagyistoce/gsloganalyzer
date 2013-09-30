@@ -1,0 +1,5 @@
+<package>
+<name>ComponentFactory</name>
+<prereq>XML</prereq>
+<filein>Component.st</filein>
+</package>

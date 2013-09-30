@@ -1,0 +1,36 @@
+2011-04-27 15:55  timkack@gmail.com
+
+	* [r62] LogParserRegistry.st: broke it
+
+2011-04-27 00:42  timkack@gmail.com
+
+	* [r61] LogParserDefinition.st: added more methods
+
+2011-04-25 21:27  TimKack
+
+	* [r60] LogEntryParser.st, LogParserDefinition.st[ADD],
+	  LogParserRegistry.st: Added LogParserDefinition and did some more
+	  work on LogParserRegistry
+
+2011-04-20 22:24  TimKack
+
+	* [r59] LogParserRegistry.st: Small steps towards a real registry
+
+2011-04-20 16:25  timkack@gmail.com
+
+	* [r58] LogParserRegistry.st: Added some doc
+
+2011-04-20 13:13  timkack@gmail.com
+
+	* [r57] LogEntryParserRegistry.st[DEL], LogParserRegistry.st[CPY]:
+	  Renamed file to match GNUstep project
+
+2011-03-22 10:15  timkack@gmail.com
+
+	* [r55] LogEntryParserRegistry.st[CPY]: Moving..
+
+2011-03-09 22:10  timkack@gmail.com
+
+	* [r50] .[ADD], LogAnalyzer.st[CPY], LogEntryParser.st[CPY],
+	  LogEntryParserFactory.st[CPY]: Cleaning up
+

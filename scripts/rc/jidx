@@ -1,0 +1,8 @@
+#!/usr/local/plan9/bin/rc
+
+awk '/\<public\>.*\<class\>/ {
+print FILENAME":"FNR" "$0
+}
+/protected[^=]*\(|private[^=]*\(|public[^=]*\(/ {
+print FILENAME":"FNR" "$0
+}' $1

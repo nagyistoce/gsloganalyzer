@@ -1,0 +1,24 @@
+<package>
+<name>LogAnalyzer-BaseLibs</name>
+<prereq>XML</prereq>
+<prereq>Logger</prereq>
+<test>
+  <sunit>
+    XMLToolsTest*
+    AbstractComponentDefinitionTest*
+    ComponentRegistryTest*
+  </sunit>
+  <filein>XMLToolsTest.st</filein>
+  <filein>AbstractComponentDefinitionTest.st</filein>
+  <filein>ComponentRegistryTest.st</filein>
+  <file>AbstractComponentTestClass.st</file>
+  <file>AbstractComponentTest2Class.st</file>
+  <file>AbstractDefinitions.xml</file>
+</test>
+<filein>BaseClassExtensions.st</filein>
+<filein>ComponentRegistry.st</filein>
+<filein>AbstractComponentDefinition.st</filein>
+<filein>ParserDefinition.st</filein>
+<filein>XMLTools.st</filein>
+</package>
+

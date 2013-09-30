@@ -1,0 +1,208 @@
+2010-10-13  TimKack
+
+	* [r22] ParserUtils.subproj/DelimiterHandling.h,
+	  ParserUtils.subproj/LogEntity.h, ParserUtils.subproj/LogEntity.m,
+	  ParserUtils.subproj/NSData+LogEntity.h,
+	  ParserUtils.subproj/NSData+LogEntity.m,
+	  ParserUtils.subproj/NSString+LogEntity.h,
+	  ParserUtils.subproj/NSString+LogEntity.m: Changed my mind -
+	  removed target action idea.
+	* [r21] tests/LogEntityTest.h, tests/LogEntityTest.m,
+	  tests/ParserUtilsTests.h, tests/ParserUtilsTests.m, tests/main.m:
+	  Added initial test structure for LogEntity
+	* [r20] ParserUtils.subproj/LogEntry.h,
+	  ParserUtils.subproj/ParserUtils.h,
+	  ParserUtils.subproj/ParserUtils.m: More comments
+
+2010-10-12  TimKack
+
+	* [r19] tests, tests/ObjcUnit-1.2-GNUstep.tar.gz: Added unittest
+	  package and directory
+
+2010-10-11  TimKack
+
+	* [r18] ParserUtils.subproj/DelimiterHandling.h,
+	  ParserUtils.subproj/NSData+LogEntity.m,
+	  ParserUtils.subproj/NSString+LogEntity.m, smalltalk/LogEntity.st,
+	  smalltalk/LogEntry.st: no message
+	* [r17] ParserUtils.subproj/NSString+LogEntity.h: Added same logic
+	  as in NSData+LogEntity.h. This should possibly be refactored to a
+	  common abstract class or as a Category to NSObject.
+	* [r16] ParserUtils.subproj/LogEntity.h: Added setSubject.
+	* [r15] ParserUtils.subproj/LogEntity.m: Revamped -description to
+	  do something useful.
+	  Added -setSubject: to do a shallow copy of whatever we are going
+	  to break out logentities from (currently are only NSData and
+	  NSString allowed)
+	  Moved -setSubject: logic from initWithObject: to its own method
+
+2010-10-04  TimKack
+
+	* [r14] smalltalk, smalltalk/Documentation,
+	  smalltalk/Documentation/Design.tex, smalltalk/LogEntity.st,
+	  smalltalk/LogEntry.st, smalltalk/Tests,
+	  smalltalk/Tests/LogAnalyzerTests.st, smalltalk/Tools,
+	  smalltalk/package.xml: Imported GNU smalltalk prototyping work
+	* [r13] GSLogAnalyzer.pcproj.backup[DEL],
+	  GSLogAnalyzer.pcproj/PC.project,
+	  GSLogAnalyzer.pcproj/timkack.project,
+	  ParserUtils.subproj/DelimiterHandling.h,
+	  ParserUtils.subproj/GNUmakefile, ParserUtils.subproj/LogEntity.m,
+	  ParserUtils.subproj/LogEntityParsing.h,
+	  ParserUtils.subproj/NSData+LogEntity.h,
+	  ParserUtils.subproj/NSData+LogEntity.m,
+	  ParserUtils.subproj/NSString+LogEntity.h: Cleaned up some
+
+2010-09-28  TimKack
+
+	* [r12] ParserUtils.subproj/GNUmakefile,
+	  ParserUtils.subproj/LogEntity.h, ParserUtils.subproj/LogEntity.m,
+	  ParserUtils.subproj/NSData+LogEntity.h,
+	  ParserUtils.subproj/NSData+LogEntity.m: Added -initWithObject
+	  method to logEntity
+	* [r11] ParserUtils.subproj/DelimiterHandling.gsdoc[DEL],
+	  ParserUtils.subproj/DelimiterHandling.html[DEL],
+	  ParserUtils.subproj/GNUmakefile,
+	  ParserUtils.subproj/GeneralSingleCharDelimiter.gsdoc[DEL],
+	  ParserUtils.subproj/GeneralSingleCharDelimiter.html[DEL],
+	  ParserUtils.subproj/LogEntity.gsdoc[DEL],
+	  ParserUtils.subproj/LogEntity.h,
+	  ParserUtils.subproj/LogEntity.html[DEL],
+	  ParserUtils.subproj/LogEntity.m,
+	  ParserUtils.subproj/LogEntityData.h[DEL],
+	  ParserUtils.subproj/LogEntityData.m[DEL],
+	  ParserUtils.subproj/LogEntityParsing.gsdoc[DEL],
+	  ParserUtils.subproj/LogEntityParsing.html[DEL],
+	  ParserUtils.subproj/LogEntityString.h[DEL],
+	  ParserUtils.subproj/LogEntityString.m[DEL],
+	  ParserUtils.subproj/LogEntry.gsdoc[DEL],
+	  ParserUtils.subproj/LogEntry.html[DEL],
+	  ParserUtils.subproj/ParserUtils.gsdoc[DEL],
+	  ParserUtils.subproj/ParserUtils.html[DEL],
+	  ParserUtils.subproj/ParserUtils.pcproj/PC.project,
+	  ParserUtils.subproj/Untitled.igsdoc[DEL]: Cleanup junk
+
+2010-09-21  TimKack
+
+	* [r10] ParserUtils.subproj/LogEntity.m,
+	  ParserUtils.subproj/LogEntityData.m,
+	  ParserUtils.subproj/NSData+LogEntity.m: Added a default parser to
+	  LogEntity
+
+2010-09-20  TimKack
+
+	* [r9] ParserUtils.subproj/GNUmakefile,
+	  ParserUtils.subproj/LogEntity.m,
+	  ParserUtils.subproj/LogEntityData.h,
+	  ParserUtils.subproj/LogEntityData.m,
+	  ParserUtils.subproj/NSData+LogEntity.h,
+	  ParserUtils.subproj/NSData+LogEntity.m,
+	  ParserUtils.subproj/NSString+LogEntity.h,
+	  ParserUtils.subproj/NSString+LogEntity.m,
+	  ParserUtils.subproj/ParserUtils.pcproj/PC.project: Fixed up
+	  compilation and added an exception for unconfigured LogEntities
+
+2010-09-17  TimKack
+
+	* [r8] ParserUtils.subproj/LogEntityData.h,
+	  ParserUtils.subproj/LogEntityData.m,
+	  ParserUtils.subproj/LogEntityParsing.h,
+	  ParserUtils.subproj/NSData+LogEntity.h,
+	  ParserUtils.subproj/NSData+LogEntity.m: More infrastructure
+
+2010-09-15  TimKack
+
+	* [r7] ParserUtils.subproj/LogEntity.h,
+	  ParserUtils.subproj/LogEntity.m,
+	  ParserUtils.subproj/LogEntityData.h,
+	  ParserUtils.subproj/NSData+LogEntity.h,
+	  ParserUtils.subproj/NSData+LogEntity.m: Some more groundwork for
+	  LogEntity category and some base for LogEntityData
+
+2010-09-13  TimKack
+
+	* [r6] COPYING, COPYING.LIB, LogDumper.subproj/main.m,
+	  ParserUtils.subproj/LogEntity.h, ParserUtils.subproj/LogEntity.m,
+	  ParserUtils.subproj/LogEntityData.h,
+	  ParserUtils.subproj/LogEntityData.m,
+	  ParserUtils.subproj/LogEntityString.h,
+	  ParserUtils.subproj/LogEntityString.m,
+	  ParserUtils.subproj/LogEntry.h,
+	  ParserUtils.subproj/NSData+LogEntity.h,
+	  ParserUtils.subproj/NSData+LogEntity.m,
+	  ParserUtils.subproj/ParserUtils.h, TODO: Some more random work
+
+2010-09-09  TimKack
+
+	* [r5] ParserUtils.subproj/GNUmakefile,
+	  ParserUtils.subproj/LogEntityData.h,
+	  ParserUtils.subproj/LogEntityData.m,
+	  ParserUtils.subproj/LogEntityString.h,
+	  ParserUtils.subproj/LogEntityString.m,
+	  ParserUtils.subproj/NSData+LogEntity.h,
+	  ParserUtils.subproj/NSData+LogEntity.m,
+	  ParserUtils.subproj/ParserUtils.pcproj/PC.project: New files
+
+2010-09-08  TimKack
+
+	* [r4] ParserUtils.subproj/NSData+LogEntity.h,
+	  ParserUtils.subproj/NSData+LogEntity.m: Added NSData+LogEntity
+
+2010-09-07  TimKack
+
+	* [r3] GSLogAnalyzer.pcproj/PC.project, LogDumper.subproj/main.m,
+	  ParserUtils.subproj/GNUmakefile, ParserUtils.subproj/LogEntity.h,
+	  ParserUtils.subproj/LogEntity.m,
+	  ParserUtils.subproj/ParserUtils.m,
+	  ParserUtils.subproj/ParserUtils.pcproj/PC.project: Changed to
+	  target-action for handling parser and delimiter handling
+
+2010-09-06  TimKack
+
+	* [r2] GNUmakefile, GNUmakefile.postamble, GNUmakefile.preamble,
+	  GSLogAnalyzer.pcproj, GSLogAnalyzer.pcproj.backup,
+	  GSLogAnalyzer.pcproj.backup/PC.project,
+	  GSLogAnalyzer.pcproj.backup/tkack.project,
+	  GSLogAnalyzer.pcproj/PC.project,
+	  GSLogAnalyzer.pcproj/tkack.project, LogDumper.subproj,
+	  LogDumper.subproj/GNUmakefile,
+	  LogDumper.subproj/GNUmakefile.postamble,
+	  LogDumper.subproj/GNUmakefile.preamble,
+	  LogDumper.subproj/LogDumper.pcproj,
+	  LogDumper.subproj/LogDumper.pcproj/PC.project,
+	  LogDumper.subproj/LogDumperInfo.plist,
+	  LogDumper.subproj/ParserUtils.h, LogDumper.subproj/Resources,
+	  LogDumper.subproj/main.m, ParserUtils.subproj,
+	  ParserUtils.subproj/DelimiterHandling.gsdoc,
+	  ParserUtils.subproj/DelimiterHandling.h,
+	  ParserUtils.subproj/DelimiterHandling.html,
+	  ParserUtils.subproj/GNUmakefile,
+	  ParserUtils.subproj/GNUmakefile.postamble,
+	  ParserUtils.subproj/GNUmakefile.preamble,
+	  ParserUtils.subproj/GeneralSingleCharDelimiter.gsdoc,
+	  ParserUtils.subproj/GeneralSingleCharDelimiter.h,
+	  ParserUtils.subproj/GeneralSingleCharDelimiter.html,
+	  ParserUtils.subproj/GeneralSingleCharDelimiter.m,
+	  ParserUtils.subproj/LogEntity.gsdoc,
+	  ParserUtils.subproj/LogEntity.h,
+	  ParserUtils.subproj/LogEntity.html,
+	  ParserUtils.subproj/LogEntity.m,
+	  ParserUtils.subproj/LogEntityParsing.gsdoc,
+	  ParserUtils.subproj/LogEntityParsing.h,
+	  ParserUtils.subproj/LogEntityParsing.html,
+	  ParserUtils.subproj/LogEntry.gsdoc,
+	  ParserUtils.subproj/LogEntry.h,
+	  ParserUtils.subproj/LogEntry.html,
+	  ParserUtils.subproj/LogEntry.m,
+	  ParserUtils.subproj/ParserUtils.gsdoc,
+	  ParserUtils.subproj/ParserUtils.h,
+	  ParserUtils.subproj/ParserUtils.html,
+	  ParserUtils.subproj/ParserUtils.m,
+	  ParserUtils.subproj/ParserUtils.pcproj,
+	  ParserUtils.subproj/ParserUtils.pcproj/PC.project,
+	  ParserUtils.subproj/Untitled.igsdoc, TAGS: Initial import
+
+2010-09-06  
+
+	* [r1] .: Initial directory structure.
+

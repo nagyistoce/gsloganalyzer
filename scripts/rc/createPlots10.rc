@@ -1,0 +1,37 @@
+#!/usr/local/plan9/bin/rc
+
+## Create preamble
+plotfile=plotter
+plotline=plot
+firstDone=0
+cat <<'ö' >$plotfile.gp
+#!/usr/bin/env gnuplot
+set terminal png size 2000,768
+set datafile separator ","
+set grid ytics
+set key outside autotitle columnheader
+set xdata time  
+set timefmt "%H:%M:%S"	
+set style fill solid 0.5 border -1
+set xlabel 'Time'
+set ylabel 'CPU%'
+set yrange [10:100]
+set title 'Thread CPU'
+
+ö
+## Loop over all files in dir
+for(f in `{ls -1 *.csv}) {
+echo Processing file $f
+title=`{head -1 $f | awk 'FS="," { if (length($NF)>0) { print $NF} else {print "Unknown"}}'}
+line=' using 1:9 smooth csplines title '
+if (test $firstDone -gt 0) {
+		plotline=$plotline','"$f"$line''''$"title''''
+}
+if not {
+	firstDone=1
+	plotline=$plotline' '"$f"$line''''$"title''''	
+	}
+}
+echo $plotline >> $plotfile.gp
+chmod +x $plotfile.gp
+`{./$plotfile.gp > $plotfile.png}

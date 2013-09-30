@@ -1,0 +1,43 @@
+#!/usr/bin/env rc
+
+. 9.rc
+dindexroot=$HOME/indexes/
+dindexname=BbSources
+
+droot=$HOME/Sources/BbSrc/
+dpattern= '(xml|db-oracle|db-mssqlproperties|java|jsp|sql|\.h|\.m|\.c|\.st)$'
+debug=0
+
+if (test $#* -gt 0) {		
+	for (i in $*) {
+	 k=$1;shift
+	 switch($k) {
+	 case '-in'
+	 	dindexname=$1;shift	 
+	 case '-ir'
+	 	dindexroot=$1;shift
+	 case '-r'
+	 	droot=$1;shift
+	 case '-p'
+	 	dpattern=$1;shift
+	 case '-d'
+	 	debug=1
+	 }
+	}
+}	
+dindex=$dindexroot$dindexname
+if (test $debug -gt 0) {
+	echo '===DEBUG==='
+	echo dindex is $dindex
+	echo dpattern is $dpattern
+	echo droot is $droot
+	echo '=========='
+}
+
+if (test $debug -gt 0) echo Creating filelist
+find $droot -type f| 9 grep $dpattern > /tmp/indexFiles.lst | statusbar -W 0,840,400,900 'Collecting...'
+if (test $debug -gt 0) echo Getting total number of files
+total=`{wc -l  /tmp/indexFiles.lst | awk '{print $1}'  }
+if (test $debug -gt 0) echo  total '=' $total 
+estcmd gather -cl -fm -cm $dindex - </tmp/indexFiles.lst | 9 awk '-v total='$total '{print $3" "total}'  | statusbar -W 0,840,400,900 'Indexing...'
+estcmd optimize $dindex | statusbar -W 0,840,400,900 'Optimizing...'

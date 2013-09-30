@@ -1,0 +1,21 @@
+#!/usr/local/plan9//bin/rc -l
+##
+## rmbtcsv.rc
+## remove .csv files where column x is below threshold in all rows.
+##
+## Usage:
+## rmbtcsv.rc <fieldid> <minvalue>
+## TODO: This does not work and 10 will be < than 5: 
+## Using fixed values for now
+
+#FIXME: awkprg='sprintf("%.1d",$'$1')>'$2' { exit 1 }{ print "$"'$1'" is "$'$1'"|"}'
+
+awkprg='sprintf("%d",$9)>25{ exit 1 }{ }'
+for (f in `{ls -1 *.csv}) {
+echo checking $f 
+# echo $awkprg
+if (awk '-F,' $awkprg $f) rm $f
+if not echo Keeping $f
+
+
+}

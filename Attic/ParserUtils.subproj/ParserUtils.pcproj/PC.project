@@ -1,0 +1,87 @@
+{
+    CLASS_FILES = (
+	ParserUtils.m,
+	LogEntity.m,
+	LogEntry.m,
+	GeneralSingleCharDelimiter.m,
+	"NSData+LogEntity.m",
+	"NSString+LogEntity.m"
+    );
+    COMPILEROPTIONS = "";
+    CPPOPTIONS = "";
+    CREATION_DATE = "";
+    DOCU_FILES = (
+    );
+    FRAMEWORKS = (
+    );
+    HEADERS_INSTALL_DIR = "";
+    HEADER_FILES = (
+	ParserUtils.h,
+	LogEntity.h,
+	LogEntry.h,
+	GeneralSingleCharDelimiter.h,
+	DelimiterHandling.h,
+	LogEntityParsing.h,
+	"NSData+LogEntity.h",
+	"NSString+LogEntity.h"
+    );
+    IMAGES = (
+    );
+    INSTALLDIR = "$(HOME)/GNUstep/Library/Frameworks";
+    INTERFACES = (
+    );
+    LANGUAGE = English;
+    LIBRARIES = (
+	"gnustep-base",
+	"gnustep-gui"
+    );
+    LINKEROPTIONS = "";
+    MAKEFILEDIR = "$(GNUSTEP_MAKEFILES)";
+    OBJC_COMPILEROPTIONS = "";
+    OTHER_RESOURCES = (
+    );
+    OTHER_SOURCES = (
+    );
+    PROJECT_AUTHORS = (
+	"Tim Kack"
+    );
+    PROJECT_COPYRIGHT = "Copyright (C) 2010";
+    PROJECT_COPYRIGHT_DESC = "Released under LGPL2";
+    PROJECT_CREATOR = "";
+    PROJECT_DESCRIPTION = "Log parsing framework";
+    PROJECT_GROUP = "No group avaliable!";
+    PROJECT_MAINTAINER = "";
+    PROJECT_NAME = ParserUtils;
+    PROJECT_RELEASE = 0.1;
+    PROJECT_SUMMARY = "No summary avaliable!";
+    PROJECT_TYPE = Framework;
+    PROJECT_URL = "";
+    PUBLIC_HEADERS = (
+	ParserUtils.h,
+	LogEntity.h,
+	LogEntity.h,
+	LogEntry.h,
+	GeneralSingleCharDelimiter.h,
+	DelimiterHandling.h,
+	LogEntityParsing.h,
+	"NSData+LogEntity.h",
+	"NSString+LogEntity.h",
+	LogEntityData.h,
+	LogEntityString.h
+    );
+    SEARCH_HEADER_DIRS = (
+    );
+    SEARCH_LIB_DIRS = (
+    );
+    SUBPROJECTS = (
+    );
+    SUPPORTING_FILES = (
+	GNUmakefile.preamble,
+	GNUmakefile,
+	GNUmakefile.postamble
+    );
+    USER_LANGUAGES = (
+	AmericanEnglish,
+	English
+    );
+}

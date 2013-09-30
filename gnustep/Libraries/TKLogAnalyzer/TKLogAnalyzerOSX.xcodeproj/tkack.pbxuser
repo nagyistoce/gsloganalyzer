@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	0867D690FE84028FC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeTarget = D2AAC0C605546C1D00DB518D /* TKLogAnalyzerOSX */;
+		addToTargets = (
+			D2AAC0C605546C1D00DB518D /* TKLogAnalyzerOSX */,
+		);
+		codeSenseManager = F31F98421309DEA200D9CFAA /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1436,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					200,
+					50,
+					1014,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					667,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 319745298;
+			PBXWorkspaceStateSaveDate = 319745298;
+		};
+		perUserProjectItems = {
+			F31F98C21309E6A900D9CFAA /* PBXTextBookmark */ = F31F98C21309E6A900D9CFAA /* PBXTextBookmark */;
+			F31F98C31309E6A900D9CFAA /* PBXTextBookmark */ = F31F98C31309E6A900D9CFAA /* PBXTextBookmark */;
+			F31F98C41309E6A900D9CFAA /* PBXTextBookmark */ = F31F98C41309E6A900D9CFAA /* PBXTextBookmark */;
+			F31F98C51309E6A900D9CFAA /* PBXTextBookmark */ = F31F98C51309E6A900D9CFAA /* PBXTextBookmark */;
+			F31F98C61309E6A900D9CFAA /* PBXTextBookmark */ = F31F98C61309E6A900D9CFAA /* PBXTextBookmark */;
+			F31F98C81309E6A900D9CFAA /* PBXTextBookmark */ = F31F98C81309E6A900D9CFAA /* PBXTextBookmark */;
+			F31F98CC1309E6A900D9CFAA /* PBXTextBookmark */ = F31F98CC1309E6A900D9CFAA /* PBXTextBookmark */;
+			F31F98CF1309E6A900D9CFAA /* PBXTextBookmark */ = F31F98CF1309E6A900D9CFAA /* PBXTextBookmark */;
+			F34C3E6C130EED63005D95BD /* PBXTextBookmark */ = F34C3E6C130EED63005D95BD /* PBXTextBookmark */;
+			F34C3E70130EED63005D95BD /* PBXTextBookmark */ = F34C3E70130EED63005D95BD /* PBXTextBookmark */;
+			F34C3E71130EED63005D95BD /* PBXTextBookmark */ = F34C3E71130EED63005D95BD /* PBXTextBookmark */;
+		};
+		sourceControlManager = F31F98411309DEA200D9CFAA /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	D2AAC0C605546C1D00DB518D /* TKLogAnalyzerOSX */ = {
+		activeExec = 0;
+	};
+	F31F98411309DEA200D9CFAA /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = GSLogAnalyzer;
+			};
+		};
+	};
+	F31F98421309DEA200D9CFAA /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	F31F98631309DFC900D9CFAA /* OrderedDictionary.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1252, 662}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 886}";
+		};
+	};
+	F31F98641309DFC900D9CFAA /* OrderedDictionary.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {869, 1872}}";
+			sepNavSelRange = "{692, 1}";
+			sepNavVisRange = "{0, 1199}";
+			sepNavWindowFrame = "{{15, 46}, {1319, 977}}";
+		};
+	};
+	F31F98651309DFC900D9CFAA /* TKLogAnalyzer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1252, 662}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1075}";
+		};
+	};
+	F31F98661309DFC900D9CFAA /* TKLogAnalyzer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1252, 662}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 973}";
+		};
+	};
+	F31F98691309DFC900D9CFAA /* TKLogEntryParserFactory.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {737, 1781}}";
+			sepNavSelRange = "{4315, 0}";
+			sepNavVisRange = "{2496, 2388}";
+			sepNavWindowFrame = "{{88, 69}, {796, 959}}";
+		};
+	};
+	F31F986A1309DFC900D9CFAA /* TKLogEntryParserFactory.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {737, 1963}}";
+			sepNavSelRange = "{1110, 0}";
+			sepNavVisRange = "{0, 1539}";
+			sepNavWindowFrame = "{{882, 75}, {796, 952}}";
+		};
+	};
+	F31F98C21309E6A900D9CFAA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F31F98641309DFC900D9CFAA /* OrderedDictionary.m */;
+		name = "OrderedDictionary.m: 20";
+		rLen = 1;
+		rLoc = 692;
+		rType = 0;
+		vrLen = 1199;
+		vrLoc = 0;
+	};
+	F31F98C31309E6A900D9CFAA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F31F98631309DFC900D9CFAA /* OrderedDictionary.h */;
+		name = "OrderedDictionary.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 886;
+		vrLoc = 0;
+	};
+	F31F98C41309E6A900D9CFAA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F31F98651309DFC900D9CFAA /* TKLogAnalyzer.h */;
+		name = "TKLogAnalyzer.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1075;
+		vrLoc = 0;
+	};
+	F31F98C51309E6A900D9CFAA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F31F98661309DFC900D9CFAA /* TKLogAnalyzer.m */;
+		name = "TKLogAnalyzer.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 973;
+		vrLoc = 0;
+	};
+	F31F98C61309E6A900D9CFAA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F31F986A1309DFC900D9CFAA /* TKLogEntryParserFactory.m */;
+		name = "TKLogEntryParserFactory.m: 12";
+		rLen = 0;
+		rLoc = 343;
+		rType = 0;
+		vrLen = 1185;
+		vrLoc = 672;
+	};
+	F31F98C81309E6A900D9CFAA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F31F98691309DFC900D9CFAA /* TKLogEntryParserFactory.h */;
+		name = "TKLogEntryParserFactory.h: 62";
+		rLen = 1;
+		rLoc = 2536;
+		rType = 0;
+		vrLen = 2556;
+		vrLoc = 1080;
+	};
+	F31F98CC1309E6A900D9CFAA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F31F986A1309DFC900D9CFAA /* TKLogEntryParserFactory.m */;
+		name = "TKLogEntryParserFactory.m: 39";
+		rLen = 0;
+		rLoc = 1110;
+		rType = 0;
+		vrLen = 1527;
+		vrLoc = 86;
+	};
+	F31F98CF1309E6A900D9CFAA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F31F98691309DFC900D9CFAA /* TKLogEntryParserFactory.h */;
+		name = "TKLogEntryParserFactory.h: 99";
+		rLen = 0;
+		rLoc = 4272;
+		rType = 0;
+		vrLen = 2347;
+		vrLoc = 2537;
+	};
+	F34C3E6C130EED63005D95BD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F31F98691309DFC900D9CFAA /* TKLogEntryParserFactory.h */;
+		name = "TKLogEntryParserFactory.h: 62";
+		rLen = 1;
+		rLoc = 2536;
+		rType = 0;
+		vrLen = 1425;
+		vrLoc = 2064;
+	};
+	F34C3E70130EED63005D95BD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F31F98691309DFC900D9CFAA /* TKLogEntryParserFactory.h */;
+		name = "TKLogEntryParserFactory.h: 101";
+		rLen = 0;
+		rLoc = 4315;
+		rType = 0;
+		vrLen = 2388;
+		vrLoc = 2496;
+	};
+	F34C3E71130EED63005D95BD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F31F986A1309DFC900D9CFAA /* TKLogEntryParserFactory.m */;
+		name = "TKLogEntryParserFactory.m: 39";
+		rLen = 0;
+		rLoc = 1110;
+		rType = 0;
+		vrLen = 1539;
+		vrLoc = 0;
+	};
+}

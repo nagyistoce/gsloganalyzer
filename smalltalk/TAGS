@@ -1,0 +1,334 @@
+	asXMLElement: tag [asXMLElement:48,992
+
+    AbstractComponentDefinition class >> fromXMLDefinition: anXMLElement [fromXMLDefinition:18,523
+    AbstractComponentDefinition class >> fromXMLDocument: xDoc [fromXMLDocument:39,1198
+    AbstractComponentDefinition class >> new [new11,363
+    AbstractComponentDefinition class >> withName: aString [withName:47,1415
+    AbstractComponentTest2Class class >> new [new8,250
+    AbstractComponentTestClass class >> new [new8,249
+    AppleConfigStore class >> new [new9,273
+    BaseLogAnalyzer class >> logAnalyzer [logAnalyzer15,459
+    BaseLogAnalyzer class >> new [new8,316
+    ComponentRegistry class >> new [new10,222
+    ComponentRegistry class >> registerObject: anObject [registerObject:45,1193
+    ComponentRegistry class >> reset [reset31,772
+    ComponentRegistry class >> withID: aString [withID:16,327
+    ComponentRegistry class >> withID: aString definitionForName: anInstanceString [withID:definitionForName:38,937
+    ComponentRegistry class >> withID: aString hasName: anInstanceString [withID:hasName:23,522
+    ConfigStore class >> new [new14,432
+    ConfigStore class >> sharedInstance [sharedInstance24,683
+    EntryParser class >> new [new7,214
+    EntryParserFactory class >> knownParsers [knownParsers20,472
+    EntryParserFactory class >> new [new7,211
+    EntryParserFactory class >> withLogType: aType [withLogType:12,316
+    GenericConfigHandler class >> new [new9,217
+    LogAnalyzerStreamTests class >> LICENSE [LICENSE23,366
+    MockXMLToolsTestClass class >> new [new8,177
+    ParserDefinition class >> new [new56,2445
+    ParserRegistry class >> forgetAll [forgetAll35,1189
+    ParserRegistry class >> new [new30,1087
+    ParserRegistry class >> register: aParser [register:45,1386
+    ParserRegistry class >> registeredWithName: aString [registeredWithName:50,1514
+    ParserRegistry class >> registry [registry40,1298
+    XMLTools class  >> selectorFromElement: anXMLElement [selectorFromElement:22,658
+    XMLTools class >> attributeDictionaryFromElement: anXMLElement [attributeDictionaryFromElement:15,462
+    XMLTools class >> new [new9,292
+    XMLTools class >> selectorFromElement: anXMLElement ignoreContent: flag [selectorFromElement:ignoreContent:29,903
+    asBoolean [asBoolean26,533
+    asXMLElement: collectionTag itemTags: itemTag [asXMLElement:itemTags:60,1209
+    asXMLElement: tag [asXMLElement:39,857
+    asXMLElement: tag [asXMLElement:7,120
+    asXMLElement: tag [asXMLElement:73,1482
+    asXMLElement: tag [asXMLElement:83,1665
+    asXMLElement: tag marshallingRulesDictionary: rules [asXMLElement:marshallingRulesDictionary:89,1784
+    codeClassName [codeClassName185,4985
+    codeClassname: className path: pathToCode [codeClassname:path:174,4723
+    codePath [codePath194,5156
+    componentdefinitionName: aString type: aClassString [componentdefinitionName:type:203,5317
+    defaultLogPolicyClass [defaultLogPolicyClass11,162
+    dependencies [dependencies156,4236
+    dependenciesForRelation: aSymbol [dependenciesForRelation:163,4404
+    dependency: aString relation: aSymbol validate: aStringOrBoolean [dependency:relation:validate:146,3944
+    dependent: aString relation: aSymbol [dependent:relation:140,3734
+    description [description125,3351
+    description: aString [description:118,3178
+    firstLetterCapitalized [firstLetterCapitalized16,310
+    hasAttributes [hasAttributes136,3362
+    initialize [initialize12,314
+    initialize [initialize13,372
+    initialize [initialize14,283
+    initialize [initialize15,337
+    initialize [initialize15,403
+    initialize [initialize15,405
+    initialize [initialize22,583
+    initialize [initialize28,731
+    initialize [initialize55,1651
+    initialize [initialize57,1694
+    initializeStandardRelations [initializeStandardRelations74,2136
+    initializeWith: anOSstring [initializeWith:30,845
+    logType [logType38,872
+    logType: aString [logType:33,797
+    name [name111,3062
+    name [name19,362
+    name [name36,686
+    name [name53,1012
+    name: aString [name:101,2825
+    name: aString [name:57,1039
+    registerRelation: aString shouldValidate: aBoolean [registerRelation:shouldValidate:132,3491
+    registry [registry94,2614
+    relations [relations89,2553
+    selector [selector42,747
+    selector: arg1 [selector:28,507
+    selector: arg1 [selector:46,781
+    selectorParameter1: arg1 parameter2: arg2 parameter3: arg3 [selectorParameter1:parameter2:parameter3:20,344
+    selectorParameter1: arg1 parameter2: arg2 value: arg3 [selectorParameter1:parameter2:value:34,592
+    setUp [setUp60,1016
+    setUp [setUp69,1232
+    setUp [setUp9,306
+    testCountLines [testCountLines29,580
+    testDependentXMLDefinition [testDependentXMLDefinition73,2820
+    testInitRelationships [testInitRelationships48,2155
+    testInvalidSimpleXMLDefinition [testInvalidSimpleXMLDefinition66,2628
+    testNew [testNew41,2026
+    testReset [testReset109,2232
+    testSelectorWith2AttributesAndText [testSelectorWith2AttributesAndText107,2460
+    testSelectorWith3AttributesFromElement [testSelectorWith3AttributesFromElement86,1960
+    testSelectorWithCharacterData [testSelectorWithCharacterData97,2246
+    testSimpleXMLDefinition [testSimpleXMLDefinition55,2288
+    testWithID [testWithID82,1480
+    testWithIDdefinitionForName [testWithIDdefinitionForName100,2004
+    testWithObject [testWithObject90,1703
+AbstractComponentDefinition	Libraries/LogAnalyzer/AbstractComponentDefinition.st	/^Object subclass: AbstractComponentDefinition [$/;"	c
+AbstractComponentDefinition subclass: ParserDefinition [ParserDefinition50,2219
+AbstractComponentDefinitionTest	Libraries/LogAnalyzer/Tests/AbstractComponentDefinitionTest.st	/^TestCase subclass: AbstractComponentDefinitionTest [$/;"	c
+AbstractComponentTest2Class	Libraries/LogAnalyzer/Tests/AbstractComponentTest2Class.st	/^Object subclass: AbstractComponentTest2Class [$/;"	c
+AbstractComponentTestClass	Libraries/LogAnalyzer/Tests/AbstractComponentTestClass.st	/^Object subclass: AbstractComponentTestClass [$/;"	c
+AbstractLogger	Libraries/Utils/AbstractLogger.st	/^Object subclass: AbstractLogger [$/;"	c
+AppleConfigStore	Tools/AppleConfigStore.st	/^GenericConfigStore subclass: AppleConfigStore [$/;"	c
+BaseLogAnalyzer	Libraries/LogAnalyzer/BaseLogAnalyzer.st	/^Object subclass: BaseLogAnalyzer [$/;"	c
+Collection	Libraries/LogAnalyzer/BaseClassExtensions.st	/^Collection extend [$/;"	c
+Collection extend [Collection58,1188
+ComponentRegistry	Libraries/LogAnalyzer/ComponentRegistry.st	/^Object subclass: ComponentRegistry [$/;"	c
+ComponentRegistryTest	Libraries/LogAnalyzer/Tests/ComponentRegistryTest.st	/^TestCase subclass: ComponentRegistryTest [$/;"	c
+ConfigStore	Tools/configStore.st	/^Object subclass: ConfigStore [$/;"	c
+Dictionary	Libraries/LogAnalyzer/BaseClassExtensions.st	/^Dictionary extend [$/;"	c
+Dictionary extend [Dictionary37,832
+Dictionary extend [Dictionary81,1640
+EntryParser	Libraries/LogAnalyzer/EntryParser.st	/^Object subclass: EntryParser [$/;"	c
+EntryParserFactory	Libraries/LogAnalyzer/EntryParserFactory.st	/^Object subclass: EntryParserFactory [$/;"	c
+Eval	Tests/LogAnalyzerTests.st	/^Eval [$/;"	m
+Eval [Eval1,0
+FileLogger	Libraries/Utils/FileLogger.st	/^AbstractLogger subclass: FileLogger [$/;"	c
+GenericConfigStore	Tools/GenericConfigStore.st	/^Object subclass: GenericConfigStore [$/;"	c
+GenericConfigStore subclass: AppleConfigStore [AppleConfigStore4,52
+LICENSE	Tests/LogAnalyzerTests.st	/^    LogAnalyzerStreamTests class >> LICENSE [$/;"	m
+Libraries/LogAnalyzer/AbstractComponentDefinition.st,1374
+Libraries/LogAnalyzer/BaseClassExtensions.st,722
+Libraries/LogAnalyzer/BaseLibraryTests.st,0
+Libraries/LogAnalyzer/BaseLogAnalyzer.st,198
+Libraries/LogAnalyzer/ComponentRegistry.st,522
+Libraries/LogAnalyzer/EntryParser.st,124
+Libraries/LogAnalyzer/EntryParserFactory.st,353
+Libraries/LogAnalyzer/ParserDefinition.st,130
+Libraries/LogAnalyzer/ParserDefinitionTests.st,90
+Libraries/LogAnalyzer/ParserRegistry.st,404
+Libraries/LogAnalyzer/Tests/AbstractComponentDefinitionTest.st,408
+Libraries/LogAnalyzer/Tests/AbstractComponentTest2Class.st,172
+Libraries/LogAnalyzer/Tests/AbstractComponentTestClass.st,169
+Libraries/LogAnalyzer/Tests/ComponentRegistryTest.st,659
+Libraries/LogAnalyzer/Tests/XMLToolsTest.st,810
+Libraries/LogAnalyzer/XMLTools.st,395
+LogAnalyzerStreamTests	Tests/LogAnalyzerTests.st	/^LogAnalyzerTestCase subclass: LogAnalyzerStreamTests [$/;"	c
+LogAnalyzerTestCase	Tests/LogAnalyzerTests.st	/^TestCase subclass: LogAnalyzerTestCase [$/;"	c
+LogAnalyzerTestCase subclass: LogAnalyzerStreamTests [LogAnalyzerStreamTests17,237
+Logger	Libraries/Utils/Logger.st	/^Object subclass: Logger [$/;"	c
+LoggerTester	scratchWorkspace.st	/^Object subclass: LoggerTester [$/;"	c
+MockComponentBaseClass	Libraries/LogAnalyzer/Tests/ComponentRegistryTest.st	/^Object subclass: MockComponentBaseClass [$/;"	c
+MockComponentBaseClass subclass: MockComponentSubClass [MockComponentSubClass24,408
+MockComponentClass	Libraries/LogAnalyzer/Tests/ComponentRegistryTest.st	/^MockComponentSubClass subclass: MockComponentClass [$/;"	c
+MockComponentSubClass	Libraries/LogAnalyzer/Tests/ComponentRegistryTest.st	/^MockComponentBaseClass subclass: MockComponentSubClass [$/;"	c
+MockComponentSubClass subclass: MockComponentClass [MockComponentClass41,732
+MockXMLToolsTestClass	Libraries/LogAnalyzer/Tests/XMLToolsTest.st	/^Object subclass: MockXMLToolsTestClass [$/;"	c
+Number	Libraries/LogAnalyzer/BaseClassExtensions.st	/^Number extend [$/;"	c
+Number extend [Number46,975
+Object subclass: AbstractComponentDefinition [AbstractComponentDefinition5,176
+Object subclass: AbstractComponentTest2Class [AbstractComponentTest2Class3,73
+Object subclass: AbstractComponentTestClass [AbstractComponentTestClass3,73
+Object subclass: BaseLogAnalyzer [BaseLogAnalyzer2,22
+Object subclass: ComponentRegistry [ComponentRegistry3,73
+Object subclass: ConfigStore [ConfigStore4,52
+Object subclass: EntryParser [EntryParser2,22
+Object subclass: EntryParserFactory [EntryParserFactory2,22
+Object subclass: GenericConfigStore [GenericConfigStore4,52
+Object subclass: MockComponentBaseClass [MockComponentBaseClass3,73
+Object subclass: MockXMLToolsTestClass [MockXMLToolsTestClass3,73
+Object subclass: ParserRegistry [ParserRegistry21,791
+Object subclass: XMLTools [XMLTools3,73
+ParserDefinition	Libraries/LogAnalyzer/ParserDefinition.st	/^AbstractComponentDefinition subclass: ParserDefinition [$/;"	c
+ParserDefinitionTests	Libraries/LogAnalyzer/ParserDefinitionTests.st	/^TestCase subclass: ParserDefinitionTests [$/;"	c
+ParserRegistry	Libraries/LogAnalyzer/ParserRegistry.st	/^Object subclass: ParserRegistry [$/;"	c
+Reflector	scratchWorkspace.st	/^Object subclass: Reflector [$/;"	c
+ReflectorCaller	scratchWorkspace.st	/^Object subclass: ReflectorCaller [$/;"	c
+StdErrLogger	Libraries/Utils/StdErrLogger.st	/^AbstractLogger subclass: StdErrLogger [$/;"	c
+String	Libraries/LogAnalyzer/BaseClassExtensions.st	/^String extend [$/;"	c
+String extend [String5,99
+TestCase subclass: AbstractComponentDefinitionTest [AbstractComponentDefinitionTest3,73
+TestCase subclass: ComponentRegistryTest [ComponentRegistryTest63,1084
+TestCase subclass: LogAnalyzerTestCase [LogAnalyzerTestCase6,56
+TestCase subclass: ParserDefinitionTests [ParserDefinitionTests2,72
+TestCase subclass: XMLToolsTest [XMLToolsTest54,868
+Tests/LogAnalyzerTests.st,328
+Tools/AppleConfigStore.st,151
+Tools/GenericConfigStore.st,112
+Tools/ReadTests.st,0
+Tools/configStore.st,210
+XMLTools	Libraries/LogAnalyzer/XMLTools.st	/^Object subclass: XMLTools [$/;"	c
+XMLToolsTest	Libraries/LogAnalyzer/Tests/XMLToolsTest.st	/^TestCase subclass: XMLToolsTest [$/;"	c
+asBoolean	Libraries/LogAnalyzer/BaseClassExtensions.st	/^    asBoolean [$/;"	m
+asXMLElement:	Libraries/LogAnalyzer/BaseClassExtensions.st	/^	asXMLElement: tag [$/;"	m
+asXMLElement:	Libraries/LogAnalyzer/BaseClassExtensions.st	/^    asXMLElement: tag [$/;"	m
+asXMLElement:itemTags:	Libraries/LogAnalyzer/BaseClassExtensions.st	/^    asXMLElement: collectionTag itemTags: itemTag [$/;"	m
+asXMLElement:marshallingRulesDictionary:	Libraries/LogAnalyzer/BaseClassExtensions.st	/^    asXMLElement: tag marshallingRulesDictionary: rules [$/;"	m
+associateLogger:forClass:	Libraries/Utils/Logger.st	/^    associateLogger: aString forClass: aClassString [$/;"	m
+attributeDictionaryFromElement:	Libraries/LogAnalyzer/XMLTools.st	/^    XMLTools class >> attributeDictionaryFromElement: anXMLElement [$/;"	m
+codeClassName	Libraries/LogAnalyzer/AbstractComponentDefinition.st	/^    codeClassName [$/;"	m
+codeClassname:path:	Libraries/LogAnalyzer/AbstractComponentDefinition.st	/^    codeClassname: className path: pathToCode [$/;"	m
+codePath	Libraries/LogAnalyzer/AbstractComponentDefinition.st	/^    codePath [$/;"	m
+componentdefinitionName:type:	Libraries/LogAnalyzer/AbstractComponentDefinition.st	/^    componentdefinitionName: aString type: aClassString [$/;"	m
+convertStringOrClassToSymbol:	Libraries/LogAnalyzer/ComponentRegistry.st	/^    ComponentRegistry class >> convertStringOrClassToSymbol: anObject [$/;"	m
+defaultLogPolicyClass	Tests/LogAnalyzerTests.st	/^    defaultLogPolicyClass [$/;"	m
+dependencies	Libraries/LogAnalyzer/AbstractComponentDefinition.st	/^    dependencies [$/;"	m
+dependenciesForRelation:	Libraries/LogAnalyzer/AbstractComponentDefinition.st	/^    dependenciesForRelation: aSymbol [$/;"	m
+dependentName:relation:	Libraries/LogAnalyzer/AbstractComponentDefinition.st	/^    dependentName: aString relation: aSymbol [$/;"	m
+dependentName:relation:validate:	Libraries/LogAnalyzer/AbstractComponentDefinition.st	/^    dependentName: aString relation: aSymbol validate: aStringOrBoolean [$/;"	m
+description	Libraries/LogAnalyzer/AbstractComponentDefinition.st	/^    description [$/;"	m
+description:	Libraries/LogAnalyzer/AbstractComponentDefinition.st	/^    description: aString [$/;"	m
+doesNotUnderstand:	Libraries/Utils/Logger.st	/^    Logger class >> doesNotUnderstand: aMessage [$/;"	m
+doesNotUnderstand:	scratchWorkspace.st	/^    doesNotUnderstand: aMessage [$/;"	m
+dump	scratchWorkspace.st	/^    dump [$/;"	m
+filename	Libraries/Utils/FileLogger.st	/^    filename [$/;"	m
+filename:	Libraries/Utils/FileLogger.st	/^    filename: aString [$/;"	m
+firstLetterCapitalized	Libraries/LogAnalyzer/BaseClassExtensions.st	/^    firstLetterCapitalized [$/;"	m
+forgetAll	Libraries/LogAnalyzer/ParserRegistry.st	/^    ParserRegistry class >> forgetAll [$/;"	m
+fromXMLDefinition:	Libraries/LogAnalyzer/AbstractComponentDefinition.st	/^    AbstractComponentDefinition class >> fromXMLDefinition: anXMLElement [$/;"	m
+fromXMLDocument:	Libraries/LogAnalyzer/AbstractComponentDefinition.st	/^    AbstractComponentDefinition class >> fromXMLDocument: xDoc [$/;"	m
+go	scratchWorkspace.st	/^    go [$/;"	m
+go2	scratchWorkspace.st	/^    go2 [$/;"	m
+go3	scratchWorkspace.st	/^    go3 [$/;"	m
+hasAttributes	Libraries/LogAnalyzer/BaseClassExtensions.st	/^    hasAttributes [$/;"	m
+initFileStream	Libraries/Utils/FileLogger.st	/^    initFileStream [$/;"	m
+initialize	Libraries/LogAnalyzer/AbstractComponentDefinition.st	/^    initialize [$/;"	m
+initialize	Libraries/LogAnalyzer/BaseLogAnalyzer.st	/^    initialize [$/;"	m
+initialize	Libraries/LogAnalyzer/EntryParser.st	/^    initialize [$/;"	m
+initialize	Libraries/LogAnalyzer/EntryParserFactory.st	/^    initialize [$/;"	m
+initialize	Libraries/LogAnalyzer/ParserRegistry.st	/^    initialize [$/;"	m
+initialize	Libraries/LogAnalyzer/Tests/AbstractComponentTest2Class.st	/^    initialize [$/;"	m
+initialize	Libraries/LogAnalyzer/Tests/AbstractComponentTestClass.st	/^    initialize [$/;"	m
+initialize	Libraries/LogAnalyzer/Tests/ComponentRegistryTest.st	/^    initialize [$/;"	m
+initialize	Libraries/LogAnalyzer/Tests/XMLToolsTest.st	/^    initialize [$/;"	m
+initialize	Libraries/Utils/AbstractLogger.st	/^    initialize [$/;"	m
+initialize	Libraries/Utils/Logger.st	/^    initialize [$/;"	m
+initialize	Tools/AppleConfigStore.st	/^    initialize [$/;"	m
+initialize	scratchWorkspace.st	/^    initialize [$/;"	m
+initializeStandardRelations	Libraries/LogAnalyzer/AbstractComponentDefinition.st	/^    initializeStandardRelations [$/;"	m
+initializeWith:	Tools/configStore.st	/^    initializeWith: anOSstring [$/;"	m
+isValid	Libraries/LogAnalyzer/AbstractComponentDefinition.st	/^    isValid [$/;"	m
+key1	Libraries/LogAnalyzer/Tests/AbstractComponentTestClass.st	/^    key1 [$/;"	m
+key2	Libraries/LogAnalyzer/Tests/AbstractComponentTestClass.st	/^    key2 [$/;"	m
+key3	Libraries/LogAnalyzer/Tests/AbstractComponentTestClass.st	/^    key3 [$/;"	m
+keywordName:type:	Libraries/LogAnalyzer/AbstractComponentDefinition.st	/^    keywordName: aString type: expectedClassNameString [$/;"	m
+keyworddictionary	Libraries/LogAnalyzer/AbstractComponentDefinition.st	/^    keyworddictionary [$/;"	m
+keyworddictionary:	Libraries/LogAnalyzer/AbstractComponentDefinition.st	/^    keyworddictionary: cdata [$/;"	m
+knownParsers	Libraries/LogAnalyzer/EntryParserFactory.st	/^    EntryParserFactory class >> knownParsers [$/;"	m
+log:atLevel:	Libraries/Utils/AbstractLogger.st	/^    log: aString atLevel: aLevelSymbol [$/;"	m
+logAnalyzer	Libraries/LogAnalyzer/BaseLogAnalyzer.st	/^    BaseLogAnalyzer class >> logAnalyzer [$/;"	m
+logDebug:	Libraries/Utils/AbstractLogger.st	/^    logDebug: aString [$/;"	m
+logError:	Libraries/Utils/AbstractLogger.st	/^    logError: aString [$/;"	m
+logInfo:	Libraries/Utils/AbstractLogger.st	/^    logInfo: aString [$/;"	m
+logLevel	Libraries/Utils/AbstractLogger.st	/^    logLevel [$/;"	m
+logLevel:	Libraries/Utils/AbstractLogger.st	/^    logLevel: aSymbol [$/;"	m
+logLevels	Libraries/Utils/AbstractLogger.st	/^    logLevels [$/;"	m
+logStream:	Libraries/Utils/AbstractLogger.st	/^    logStream: aStream [$/;"	m
+logType	Libraries/LogAnalyzer/EntryParserFactory.st	/^    logType [$/;"	m
+logType:	Libraries/LogAnalyzer/EntryParserFactory.st	/^    logType: aString [$/;"	m
+logWarning:	Libraries/Utils/AbstractLogger.st	/^    logWarning: aString [$/;"	m
+loggerForClass:	Libraries/Utils/Logger.st	/^    loggerForClass: aClassString [$/;"	m
+logmeplease	scratchWorkspace.st	/^    logmeplease [$/;"	m
+messageHandler:	Libraries/Utils/AbstractLogger.st	/^    messageHandler: aBlock [$/;"	m
+name	Libraries/LogAnalyzer/AbstractComponentDefinition.st	/^    name [$/;"	m
+name	Libraries/LogAnalyzer/Tests/ComponentRegistryTest.st	/^    name [$/;"	m
+name	Libraries/Utils/AbstractLogger.st	/^    name [$/;"	m
+name:	Libraries/LogAnalyzer/AbstractComponentDefinition.st	/^    name: aString [$/;"	m
+name:	Libraries/LogAnalyzer/Tests/ComponentRegistryTest.st	/^    name: aString [$/;"	m
+name:	Libraries/Utils/AbstractLogger.st	/^    name: aString [$/;"	m
+named:	Libraries/Utils/FileLogger.st	/^    FileLogger class >> named: aString [$/;"	m
+named:	Libraries/Utils/Logger.st	/^    Logger class >> named: aString [$/;"	m
+named:	Libraries/Utils/Logger.st	/^    named: aString [$/;"	m
+new	Libraries/LogAnalyzer/AbstractComponentDefinition.st	/^    AbstractComponentDefinition class >> new [$/;"	m
+new	Libraries/LogAnalyzer/BaseLogAnalyzer.st	/^    BaseLogAnalyzer class >> new [$/;"	m
+new	Libraries/LogAnalyzer/ComponentRegistry.st	/^    ComponentRegistry class >> new [$/;"	m
+new	Libraries/LogAnalyzer/EntryParser.st	/^    EntryParser class >> new [$/;"	m
+new	Libraries/LogAnalyzer/EntryParserFactory.st	/^    EntryParserFactory class >> new [$/;"	m
+new	Libraries/LogAnalyzer/ParserDefinition.st	/^    ParserDefinition class >> new [$/;"	m
+new	Libraries/LogAnalyzer/ParserRegistry.st	/^    ParserRegistry class >> new [$/;"	m
+new	Libraries/LogAnalyzer/Tests/AbstractComponentTest2Class.st	/^    AbstractComponentTest2Class class >> new [$/;"	m
+new	Libraries/LogAnalyzer/Tests/AbstractComponentTestClass.st	/^    AbstractComponentTestClass class >> new [$/;"	m
+new	Libraries/LogAnalyzer/Tests/XMLToolsTest.st	/^    MockXMLToolsTestClass class >> new [$/;"	m
+new	Libraries/LogAnalyzer/XMLTools.st	/^    XMLTools class >> new [$/;"	m
+new	Libraries/Utils/AbstractLogger.st	/^    AbstractLogger class >> new [$/;"	m
+new	Libraries/Utils/FileLogger.st	/^    FileLogger class >> new [$/;"	m
+new	Libraries/Utils/Logger.st	/^    Logger class >> new [$/;"	m
+new	Libraries/Utils/StdErrLogger.st	/^    StdErrLogger class >> new [$/;"	m
+new	Tools/AppleConfigStore.st	/^    AppleConfigStore class >> new [$/;"	m
+new	Tools/GenericConfigStore.st	/^    GenericConfigHandler class >> new [$/;"	m
+new	Tools/configStore.st	/^    ConfigStore class >> new [$/;"	m
+new	scratchWorkspace.st	/^    LoggerTester class >> new [$/;"	m
+new	scratchWorkspace.st	/^    Reflector class >> new [$/;"	m
+new	scratchWorkspace.st	/^    ReflectorCaller class >> new [$/;"	m
+register:	Libraries/LogAnalyzer/ParserRegistry.st	/^    ParserRegistry class >> register: aParser [$/;"	m
+registerLogger:	Libraries/Utils/Logger.st	/^    registerLogger: aLogger [$/;"	m
+registerObject:	Libraries/LogAnalyzer/ComponentRegistry.st	/^    ComponentRegistry class >> registerObject: anObject [$/;"	m
+registerRelation:shouldValidate:	Libraries/LogAnalyzer/AbstractComponentDefinition.st	/^    registerRelation: aString shouldValidate: aBoolean [$/;"	m
+registeredWithName:	Libraries/LogAnalyzer/ParserRegistry.st	/^    ParserRegistry class >> registeredWithName: aString [$/;"	m
+registry	Libraries/LogAnalyzer/ParserRegistry.st	/^    ParserRegistry class >> registry [$/;"	m
+relations	Libraries/LogAnalyzer/AbstractComponentDefinition.st	/^    relations [$/;"	m
+reset	Libraries/LogAnalyzer/ComponentRegistry.st	/^    ComponentRegistry class >> reset [$/;"	m
+scratchWorkspace.st,0
+selector	Libraries/LogAnalyzer/Tests/XMLToolsTest.st	/^    selector [$/;"	m
+selector:	Libraries/LogAnalyzer/Tests/XMLToolsTest.st	/^    selector: arg1 [$/;"	m
+selectorArrayFromElement:	Libraries/LogAnalyzer/XMLTools.st	/^    XMLTools class >> selectorArrayFromElement: anXMLElement [$/;"	m
+selectorArrayFromElement:ignoreContent:	Libraries/LogAnalyzer/XMLTools.st	/^    XMLTools class >> selectorArrayFromElement: anXMLElement ignoreContent: flag [$/;"	m
+selectorFromElement:	Libraries/LogAnalyzer/XMLTools.st	/^    XMLTools class  >> selectorFromElement: anXMLElement [$/;"	m
+selectorFromElement:ignoreContent:	Libraries/LogAnalyzer/XMLTools.st	/^    XMLTools class >> selectorFromElement: anXMLElement ignoreContent: flag [$/;"	m
+selectorParameter1:parameter2:parameter3:	Libraries/LogAnalyzer/Tests/XMLToolsTest.st	/^    selectorParameter1: arg1 parameter2: arg2 parameter3: arg3 [$/;"	m
+selectorParameter1:parameter2:value:	Libraries/LogAnalyzer/Tests/XMLToolsTest.st	/^    selectorParameter1: arg1 parameter2: arg2 value: arg3 [$/;"	m
+setUp	Libraries/LogAnalyzer/ParserDefinitionTests.st	/^setUp [$/;"	m
+setUp	Libraries/LogAnalyzer/Tests/AbstractComponentDefinitionTest.st	/^    setUp [$/;"	m
+setUp	Libraries/LogAnalyzer/Tests/ComponentRegistryTest.st	/^    setUp [$/;"	m
+setUp	Libraries/LogAnalyzer/Tests/XMLToolsTest.st	/^    setUp [$/;"	m
+setUp [setUp5,134
+sharedInstance	Libraries/Utils/Logger.st	/^    Logger class >> sharedInstance [$/;"	m
+sharedInstance	Tools/configStore.st	/^    ConfigStore class >> sharedInstance [$/;"	m
+tearDown	Libraries/LogAnalyzer/Tests/ComponentRegistryTest.st	/^    tearDown [$/;"	m
+testCountLines	Tests/LogAnalyzerTests.st	/^    testCountLines [$/;"	m
+testDependentXMLDefinition	Libraries/LogAnalyzer/Tests/AbstractComponentDefinitionTest.st	/^    testDependentXMLDefinition [$/;"	m
+testInitRelationships	Libraries/LogAnalyzer/Tests/AbstractComponentDefinitionTest.st	/^    testInitRelationships [$/;"	m
+testInvalidSimpleXMLDefinition	Libraries/LogAnalyzer/Tests/AbstractComponentDefinitionTest.st	/^    testInvalidSimpleXMLDefinition [$/;"	m
+testNew	Libraries/LogAnalyzer/Tests/AbstractComponentDefinitionTest.st	/^    testNew [$/;"	m
+testQueryTermsXMLDefinition	Libraries/LogAnalyzer/Tests/AbstractComponentDefinitionTest.st	/^    testQueryTermsXMLDefinition [$/;"	m
+testReset	Libraries/LogAnalyzer/Tests/ComponentRegistryTest.st	/^    testReset [$/;"	m
+testSelectorWith2AttributesAndText	Libraries/LogAnalyzer/Tests/XMLToolsTest.st	/^    testSelectorWith2AttributesAndText [$/;"	m
+testSelectorWith3AttributesFromElement	Libraries/LogAnalyzer/Tests/XMLToolsTest.st	/^    testSelectorWith3AttributesFromElement [$/;"	m
+testSelectorWithCharacterData	Libraries/LogAnalyzer/Tests/XMLToolsTest.st	/^    testSelectorWithCharacterData [$/;"	m
+testSimpleXMLDefinition	Libraries/LogAnalyzer/Tests/AbstractComponentDefinitionTest.st	/^    testSimpleXMLDefinition [$/;"	m
+testWithIDString	Libraries/LogAnalyzer/Tests/ComponentRegistryTest.st	/^    testWithIDString [$/;"	m
+testWithIDSymbol	Libraries/LogAnalyzer/Tests/ComponentRegistryTest.st	/^    testWithIDSymbol [$/;"	m
+testWithIDdefinitionForName	Libraries/LogAnalyzer/Tests/ComponentRegistryTest.st	/^    testWithIDdefinitionForName [$/;"	m
+testWithIDhasName	Libraries/LogAnalyzer/Tests/ComponentRegistryTest.st	/^    testWithIDhasName [$/;"	m
+testWithObject	Libraries/LogAnalyzer/Tests/ComponentRegistryTest.st	/^    testWithObject [$/;"	m
+withID:	Libraries/LogAnalyzer/ComponentRegistry.st	/^    ComponentRegistry class >> withID: anObject [$/;"	m
+withID:definitionForName:	Libraries/LogAnalyzer/ComponentRegistry.st	/^    ComponentRegistry class >> withID: anObject definitionForName: anInstanceString [$/;"	m
+withID:hasName:	Libraries/LogAnalyzer/ComponentRegistry.st	/^    ComponentRegistry class >> withID: anObject hasName: anInstanceString [$/;"	m
+withLogType:	Libraries/LogAnalyzer/EntryParserFactory.st	/^    EntryParserFactory class >> withLogType: aType [$/;"	m
+withName:	Libraries/LogAnalyzer/AbstractComponentDefinition.st	/^    AbstractComponentDefinition class >> withName: aString [$/;"	m
+withName:	Libraries/Utils/AbstractLogger.st	/^    AbstractLogger class >> withName: aString [$/;"	m
